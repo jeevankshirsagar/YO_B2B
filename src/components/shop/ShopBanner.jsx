@@ -3,7 +3,7 @@ import ShopCategoryMain from "./ShopCategoryMain";
 
 const ShopBanner = () => {
 
-    const shopBannerUrl = "https://placehold.co/1920x600.svg";
+    const shopBannerUrl = "megaoffer.avif";
 
     return (
         <>

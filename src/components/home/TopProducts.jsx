@@ -48,44 +48,44 @@ const TopProducts = () => {
             <div id="top-products" className="owl-carousel owl-theme text-center">
 
                 <TopListing
-                    productThumbnail="https://placehold.co/500x500.svg"
-                    productTitle="Lorem Ipsum"
-                    productCurrency="$"
-                    productPrice="42.00"
+                    productThumbnail="iphon-15.jpg"
+                    productTitle="iPhone 15"
+                    productCurrency="INR "
+                    productPrice="74900"
                 />
                 <TopListing
-                    productThumbnail="https://placehold.co/500x500.svg"
-                    productTitle="Lorem Ipsum 2"
-                    productCurrency="$"
-                    productPrice="52.00"
-                />
-
-                <TopListing
-                    productThumbnail="https://placehold.co/500x500.svg"
-                    productTitle="Lorem Ipsum 3"
-                    productCurrency="$"
-                    productPrice="65.00"
+                    productThumbnail="sam s20.jpg"
+                    productTitle="Samsung s20"
+                    productCurrency="INR "
+                    productPrice="84999"
                 />
 
                 <TopListing
-                    productThumbnail="https://placehold.co/500x500.svg"
-                    productTitle="Lorem Ipsum 4"
-                    productCurrency="$"
-                    productPrice="80.00"
+                    productThumbnail="laptop.png"
+                    productTitle="Laptop"
+                    productCurrency="INR "
+                    productPrice="80000"
                 />
 
                 <TopListing
-                    productThumbnail="https://placehold.co/500x500.svg"
-                    productTitle="Lorem Ipsum 5"
-                    productCurrency="$"
-                    productPrice="99.00"
+                    productThumbnail="BUDS.jpg"
+                    productTitle="Ear Buds"
+                    productCurrency="INR "
+                    productPrice="3999"
                 />
 
                 <TopListing
-                    productThumbnail="https://placehold.co/500x500.svg"
-                    productTitle="Lorem Ipsum 6"
-                    productCurrency="$"
-                    productPrice="74.00"
+                    productThumbnail="headphone.avif"
+                    productTitle="Headphones"
+                    productCurrency="INR "
+                    productPrice="2999"
+                />
+
+                <TopListing
+                    productThumbnail="smartwatch2.png"
+                    productTitle="Smart Watch"
+                    productCurrency="INR "
+                    productPrice="2499"
                 />
                 
             </div>

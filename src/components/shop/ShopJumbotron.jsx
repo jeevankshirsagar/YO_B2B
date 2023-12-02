@@ -2,7 +2,7 @@ import "./shop-jumbotron.css"
 
 const ShopJumbotron = () => {
 
-    const shopJumbotronUrl = "https://placehold.co/1920x280.svg";
+    const shopJumbotronUrl = "offer3.jpg";
 
     return (
         <>

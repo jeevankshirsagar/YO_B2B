@@ -49,44 +49,44 @@ const TrendingProducts = () => {
             <div id="trending-products" className="owl-carousel owl-theme text-center">
 
                 <TrendingProductsListing
-                    productThumbnail="https://placehold.co/500x500.svg"
-                    productTitle="Lorem Ipsum 7"
-                    productCurrency="$"
-                    productPrice="42.00"
+                    productThumbnail="blutoothspeaker.jpg"
+                    productTitle="Smart Speaker"
+                    productCurrency="INR "
+                    productPrice="1299"
                 />
                 <TrendingProductsListing
-                    productThumbnail="https://placehold.co/500x500.svg"
-                    productTitle="Lorem Ipsum 8"
-                    productCurrency="$"
-                    productPrice="52.00"
-                />
-
-                <TrendingProductsListing
-                    productThumbnail="https://placehold.co/500x500.svg"
-                    productTitle="Lorem Ipsum 9"
-                    productCurrency="$"
-                    productPrice="65.00"
+                    productThumbnail="tab.png"
+                    productTitle="Samsung Tab"
+                    productCurrency="INR "
+                    productPrice="24999"
                 />
 
                 <TrendingProductsListing
-                    productThumbnail="https://placehold.co/500x500.svg"
-                    productTitle="Lorem Ipsum 10"
-                    productCurrency="$"
-                    productPrice="80.00"
+                    productThumbnail="power_bank.jpg"
+                    productTitle="Smart Power Bank"
+                    productCurrency="INR "
+                    productPrice="1999"
                 />
 
                 <TrendingProductsListing
-                    productThumbnail="https://placehold.co/500x500.svg"
-                    productTitle="Lorem Ipsum 11"
-                    productCurrency="$"
-                    productPrice="99.00"
+                    productThumbnail="printer.webp"
+                    productTitle="Smart Printer"
+                    productCurrency="INR "
+                    productPrice="19499"
                 />
 
                 <TrendingProductsListing
-                    productThumbnail="https://placehold.co/500x500.svg"
-                    productTitle="Lorem Ipsum 12"
-                    productCurrency="$"
-                    productPrice="74.00"
+                    productThumbnail="tv3.jpeg"
+                    productTitle="Smart TV"
+                    productCurrency="INR "
+                    productPrice="42499"
+                />
+
+                <TrendingProductsListing
+                    productThumbnail="mouse.jpg"
+                    productTitle="Smart Mouse"
+                    productCurrency="INR "
+                    productPrice="5999"
                 />
 
             </div>

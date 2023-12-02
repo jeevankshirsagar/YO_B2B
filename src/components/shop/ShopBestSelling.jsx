@@ -14,44 +14,44 @@ const ShopBestSelling = () => {
             <div className="row">
 
                 <ShopListingTwo
-                    productThumbnail="https://placehold.co/500x500.svg"
-                    productTitle="Lorem Ipsum 9"
-                    productCurrency="$"
-                    productPrice="42.00"
+                    productThumbnail="iphon-15.jpg"
+                    productTitle="iPhone 15"
+                    productCurrency="INR "
+                    productPrice="74999"
                 />
                 <ShopListingTwo
-                    productThumbnail="https://placehold.co/500x500.svg"
-                    productTitle="Lorem Ipsum 10"
-                    productCurrency="$"
-                    productPrice="52.00"
-                />
-
-                <ShopListingTwo
-                    productThumbnail="https://placehold.co/500x500.svg"
-                    productTitle="Lorem Ipsum 11"
-                    productCurrency="$"
-                    productPrice="65.00"
+                    productThumbnail="realme2.webp"
+                    productTitle="Realme GT"
+                    productCurrency="INR "
+                    productPrice="24999"
                 />
 
                 <ShopListingTwo
-                    productThumbnail="https://placehold.co/500x500.svg"
-                    productTitle="Lorem Ipsum 12"
-                    productCurrency="$"
-                    productPrice="80.00"
+                    productThumbnail="video_game.jpg"
+                    productTitle="Gaming Pad"
+                    productCurrency="INR "
+                    productPrice="1999"
                 />
 
                 <ShopListingTwo
-                    productThumbnail="https://placehold.co/500x500.svg"
-                    productTitle="Lorem Ipsum 13"
-                    productCurrency="$"
-                    productPrice="99.00"
+                    productThumbnail="tv3.jpeg"
+                    productTitle="Smart TV"
+                    productCurrency="INR "
+                    productPrice="34999"
                 />
 
                 <ShopListingTwo
-                    productThumbnail="https://placehold.co/500x500.svg"
-                    productTitle="Lorem Ipsum 14"
-                    productCurrency="$"
-                    productPrice="74.00"
+                    productThumbnail="mouse.jpg"
+                    productTitle="Mouse"
+                    productCurrency="INR "
+                    productPrice="1299"
+                />
+
+                <ShopListingTwo
+                    productThumbnail="projector.jpg"
+                    productTitle="Bluetooth Projector"
+                    productCurrency="INR "
+                    productPrice="9499"
                 />
 
             </div>

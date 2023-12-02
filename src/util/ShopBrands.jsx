@@ -43,35 +43,35 @@ const ShopBrands = () => {
             <div id="shop-brands" className="owl-carousel owl-theme text-center">
 
                 <div className="item">
-                    <img src="https://placehold.co/500x500.svg" />
+                    <img src="iphonelogo.png" />
                 </div>
 
                 <div className="item">
-                    <img src="https://placehold.co/500x500.svg" />
+                    <img src="realmelogo.jpg" />
                 </div>
 
                 <div className="item">
-                    <img src="https://placehold.co/500x500.svg" />
+                    <img src="samsunglogo2.png" />
                 </div>
 
                 <div className="item">
-                    <img src="https://placehold.co/500x500.svg" />
+                    <img src="lglogo.png" />
                 </div>
 
                 <div className="item">
-                    <img src="https://placehold.co/500x500.svg" />
+                    <img src="sonylogo.jpg" />
                 </div>
 
                 <div className="item">
-                    <img src="https://placehold.co/500x500.svg" />
+                    <img src="lenovo.png" />
                 </div>
 
                 <div className="item">
-                    <img src="https://placehold.co/500x500.svg" />
+                    <img src="whirpool.webp" />
                 </div>
 
                 <div className="item">
-                    <img src="https://placehold.co/500x500.svg" />
+                    <img src="milogo.png" />
                 </div>
 
             </div>

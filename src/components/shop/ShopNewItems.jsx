@@ -15,58 +15,58 @@ const ShopNewItems = () => {
             <div className="row text-center">
 
                 <ShopListingThree
-                    productThumbnail="https://placehold.co/500x500.svg"
-                    productTitle="Lorem Ipsum 17"
-                    productCurrency="$"
-                    productPrice="42.00"
+                    productThumbnail="Binocular.jpg"
+                    productTitle="Binocular "
+                    productCurrency="INR "
+                    productPrice="1999"
                 />
                 <ShopListingThree
-                    productThumbnail="https://placehold.co/500x500.svg"
-                    productTitle="Lorem Ipsum 18"
-                    productCurrency="$"
-                    productPrice="52.00"
-                />
-
-                <ShopListingThree
-                    productThumbnail="https://placehold.co/500x500.svg"
-                    productTitle="Lorem Ipsum 19"
-                    productCurrency="$"
-                    productPrice="65.00"
+                    productThumbnail="headset.jpg"
+                    productTitle="Headset"
+                    productCurrency="INR "
+                    productPrice="799"
                 />
 
                 <ShopListingThree
-                    productThumbnail="https://placehold.co/500x500.svg"
-                    productTitle="Lorem Ipsum 20"
-                    productCurrency="$"
-                    productPrice="80.00"
+                    productThumbnail="wifi_camera.jpg"
+                    productTitle="WIFI Camera"
+                    productCurrency="INR "
+                    productPrice="1299"
                 />
 
                 <ShopListingThree
-                    productThumbnail="https://placehold.co/500x500.svg"
-                    productTitle="Lorem Ipsum 21"
-                    productCurrency="$"
-                    productPrice="99.00"
+                    productThumbnail="TABLET.jpg"
+                    productTitle="Writing Tablet "
+                    productCurrency="INR"
+                    productPrice="299"
                 />
 
                 <ShopListingThree
-                    productThumbnail="https://placehold.co/500x500.svg"
-                    productTitle="Lorem Ipsum 22"
-                    productCurrency="$"
-                    productPrice="74.00"
+                    productThumbnail="projector.jpg"
+                    productTitle="Smart Projector"
+                    productCurrency="INR "
+                    productPrice="5999"
                 />
 
                 <ShopListingThree
-                    productThumbnail="https://placehold.co/500x500.svg"
-                    productTitle="Lorem Ipsum 23"
-                    productCurrency="$"
-                    productPrice="20.00"
+                    productThumbnail="printer.webp"
+                    productTitle="Printer"
+                    productCurrency="INR "
+                    productPrice="3999"
                 />
 
                 <ShopListingThree
-                    productThumbnail="https://placehold.co/500x500.svg"
-                    productTitle="Lorem Ipsum 24"
-                    productCurrency="$"
-                    productPrice="200.00"
+                    productThumbnail="smartwatchwomen.jpg"
+                    productTitle="Smart Watch"
+                    productCurrency="INR "
+                    productPrice="1399"
+                />
+
+                <ShopListingThree
+                    productThumbnail="camcoreder.jpg"
+                    productTitle=" Camcorder"
+                    productCurrency="INR "
+                    productPrice="2199"
                 />
 
             </div>
