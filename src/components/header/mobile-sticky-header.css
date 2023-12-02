@@ -1,0 +1,41 @@
+
+.mobile-sticky-header {
+    bottom: 0;
+    z-index: 10;
+    background-color: #fff;
+    padding: 12px 0;
+    box-shadow: 0px 0px 6px -2px #3333338c;
+}
+.mobile-sticky-header .msh-search {
+    border-right: 1px solid #DDDDDD;
+}
+.mobile-sticky-header .msh-search button,
+.mobile-sticky-header .msh-account button  {
+    border: 0;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 500;
+    width: 100%;
+    padding: 0;
+}
+.mobile-sticky-header .msh-account a {
+    display: block;
+    width: 100%;
+}
+.mobile-sticky-header .msh-search button span,
+.mobile-sticky-header .msh-account a > span span {
+    margin-left: 5px;
+}
+.mobile-sticky-header .msh-search button i,
+.mobile-sticky-header .msh-account a > span i {
+    line-height: 0;
+    position: relative;
+    top: -4px;
+    font-size: 17px;
+}
+.mobile-sticky-header .msh-account a > span i {
+    font-size: 20px;
+}
+.mobile-sticky-header .msh-account a > span i {
+    top: -2px;
+}

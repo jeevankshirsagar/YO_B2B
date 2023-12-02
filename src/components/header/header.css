@@ -1,0 +1,55 @@
+
+.header-main {
+    margin: 26px 0;
+}
+
+.header-searchbar form {
+    font-size: 15px;
+    background: #f7f7f7;
+    border-radius: 5px;
+    border: 1.5px solid #e0e0e0;
+}
+.header-searchbar button {
+    line-height: 0;
+    cursor: pointer;
+}
+.header-searchbar button .bi-search {
+    font-size: 16px;
+}
+.header-main .header-search-button .bi-search::before {
+    font-weight: 600 !important;
+}
+.header-searchbar button,
+.header-searchbar input,
+.header-searchbar select {
+    height: 50px;
+    outline: none;
+    background-color: transparent;
+    border: 0;
+    width: 100%;
+}
+.header-searchbar textarea {
+    border-left: 1px solid #e0e0e0;
+}
+.header-searchbar .header-search-dropdown {
+    border-left: 1px solid #e3e3e3;
+}
+.header-searchbar select {
+    font-weight: 600;
+}
+.header-searchbar select option {
+    font-size: 14px;
+}
+
+.header-main .account-meta i {
+    font-size: 25px;
+    line-height: 18px;
+    margin-top: -4px;
+}
+.header-main .account-meta span {
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-left: 5px;
+}

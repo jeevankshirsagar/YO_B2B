@@ -1,0 +1,13 @@
+
+.home-banner-slider .cover-banner {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 5;
+    display: block;
+}
+.home-banner-slider .carousel-indicators li {
+    height: 6px;
+    cursor: pointer;
+}

@@ -1,0 +1,297 @@
+
+/* Main CSS */
+
+.product-form-modal {
+  margin: 0 auto;
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: none;
+}
+.product-form-modal.modal-up {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0,0,0,0.6);
+}
+.product-form-wrapper {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* gap: 1%; */
+  background-color: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+  padding: 20px 10px;
+}
+.product-form-wrapper > div {
+  padding: 15px 20px;
+}
+.product-form-wrapper .product-form-main,
+.product-form-wrapper .product-form-image {
+  background-color: #fff;
+}
+.product-form-wrapper .product-form-data {
+  flex: 0 0 34%;
+  max-width: 34%;
+  padding: 0px 20px;
+  /* background-color: #eaeaea; */
+  border-right: 1px solid #eee;
+}
+.product-form-wrapper .product-form-main {
+  flex: 0 0 66%;
+  max-width: 66%;
+}
+.product-form-wrapper .product-form-image {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #eaeaea;
+  border-radius: 5px;
+  height: 260px;
+  padding: 5px;
+}
+.product-form-wrapper .product-form-image img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+.product-form-data .product-form-meta h4,
+.product-form-data .product-form-meta h5,
+.product-form-data .product-form-meta h6 {
+  margin: 0;
+  font-weight: 400;
+}
+.product-form-data .product-form-meta h4 {
+  margin: 15px 0;
+  font-size: 20px;
+  line-height: 22px;
+}
+.product-form-data .product-form-meta h5,
+.product-form-data .product-form-meta h6 {
+  font-size: 15px;
+  color: #777;
+}
+.product-form-data .product-form-meta h5 span  {
+  color: #000;
+  font-size: 16px;
+}
+.product-form-data .product-form-meta h6 {
+  margin-top: 10px;
+}
+.product-form-data .product-form-meta h6 span {
+  color: #000;
+}
+.product-form-data .product-form-meta h6,
+.product-form-data .product-form-meta h6 span {
+  font-size: 13px;
+}
+#form-close-modal {
+  padding: 0;
+  display: block;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  position: absolute;
+  top: -5px;
+  right: 5px;
+}
+#form-close-modal .modal-close-icon {
+  font-size: 30px;
+}
+.pform-title {
+  margin: 0;
+  font-size: 22px;
+  line-height: 36px;
+  margin-top: 50px;
+}
+.product-form-main .form-note {
+  display: block;
+  font-size: 13px;
+  margin-bottom: 20px;
+  color: #333;
+}
+.product-form-main .mark-required {
+  color: red;
+}
+.pform-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 15px 20px;
+}
+.product-form-main .form-field-submit {
+  margin-bottom: 0;
+}
+.product-form-wrapper .product-form-main input,
+.product-form-main textarea,
+.product-form-main select {
+  width: 100%;
+}
+.product-form-main input,
+.product-form-main textarea,
+.product-form-main select {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000;
+  border: 1px solid #eaeaea;
+  border-radius: 3px;
+  padding: 10px;
+}
+.product-form-main textarea {
+  resize: none;
+  height: 80px;
+}
+.pform-wrapper .form-field-cover {
+  grid-column: 1/-1;
+}
+.form-step-wrap.visible {
+  display: block;
+}
+.form-step-wrap.hidden {
+  display: none;
+}
+.pform-wrapper .form-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.pform-wrapper .form-actions button {
+  width: 82px;
+  text-align: center;
+  cursor: pointer;
+  border: 0;
+  background-color: #010101;
+  color: #fff;
+  border-radius: 3px;
+  font-size: 14px;
+  padding: 9px 12px;
+}
+.pform-wrapper .form-actions button[disabled] {
+  opacity: 0.6;
+}
+.product-form-main .form-field input:not(input[type="submit"]) {
+  height: 40px;
+}
+.product-form-main .form-field input[type="submit"]:hover {
+  background-color: #333;
+}
+.product-form-main .form-field label {
+  font-size: 15px;
+  display: block;
+  margin-bottom: 6px;
+}
+.product-form-wrapper .product-form-main input:focus,
+.product-form-main textarea:focus {
+  outline: none;
+  border-color: #000;
+}
+.product-form-main input[type="submit"] {
+  cursor: pointer;
+  background-color: #000;
+  color: #fff;
+  font-size: 18px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width :1920px) and (min-width: 1601px) {
+   
+}
+
+@media only screen and (max-width :1600px) and (min-width: 1441px) {
+    
+}
+
+@media only screen and (max-width :1440px) and (min-width: 1367px) {
+    
+}
+
+@media only screen and (max-width :1440px){
+  .product-form-wrapper {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width :1366px) and (min-width: 1281px) {
+   
+}
+
+@media only screen and (max-width :1280px) and (min-width: 1101px) {
+    
+}
+
+@media only screen and (max-width :1100px){
+  .product-form-wrapper {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width:999px){
+  .product-form-wrapper .product-form-image {
+    height: 200px;
+  }
+}
+
+@media only screen and (max-width:767px){
+  .product-form-wrapper {
+    flex-direction: column;
+  }
+  .product-form-wrapper .product-form-data,
+  .product-form-wrapper .product-form-main {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .product-form-wrapper .product-form-data {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+  }
+  .product-form-wrapper .product-form-image {
+    flex: 0 0 33%;
+    max-width: 33%;
+    height: 160px;
+  }
+  .product-form-wrapper .product-form-meta {
+    flex: 0 0 65%;
+    max-width: 65%;
+  }
+  .product-form-data .product-form-meta h4 {
+    margin-top: 25px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .pform-title {
+    margin-top: 5px;
+  }
+  .product-form-modal {
+    overflow-x: auto;
+  }
+}
+
+@media only screen and (max-width:479px){
+  .product-form-wrapper .product-form-meta {
+    flex: 0 0 100%;
+    max-width: 100%;
+ }
+ .product-form-wrapper .product-form-image {
+    flex: 0 0 80%;
+    max-width: 80%;
+  }
+  .product-form-data .product-form-meta h4 {
+    margin-top: 15px;
+  }
+  .pform-wrapper .form-field {
+    grid-column: 1/-1;
+  }
+}
+
+@media only screen and (max-width:320px){
+    
+}

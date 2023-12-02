@@ -1,0 +1,171 @@
+
+/* Main CSS */
+
+.retail-form-modal {
+    margin: 0 auto;
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: none;
+}
+.retail-form-modal.modal-up {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.6);
+}
+.retail-form-wrapper {
+    width: 40%;
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+.retail-form-wrapper > div {
+    padding: 30px;
+}
+#form-close-modal {
+    padding: 0;
+    display: block;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    position: absolute;
+    top: -5px;
+    right: 5px;
+}
+#form-close-modal .modal-close-icon {
+    font-size: 30px;
+}
+.retail-form-modal .rform-title {
+    margin: 0;
+    font-size: 22px;
+    line-height: 36px;
+    margin-bottom: 50px;
+}
+.retail-form-main .mark-required {
+    color: red;
+}
+.retail-form-main .form-field {
+    margin-bottom: 15px;
+}
+.retail-form-main .form-field-submit {
+    margin-bottom: 0;
+}
+.retail-form-main input {
+    width: 100%;
+}
+.retail-form-main input {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000;
+    border: 1px solid #eaeaea;
+    border-radius: 3px;
+    padding: 10px;
+}
+.retail-form-main button[disabled] {
+    opacity: 0.6;
+}
+.retail-form-main .form-field input:not(input[type="submit"]) {
+    height: 40px;
+}
+.retail-form-main .form-field label {
+    font-size: 15px;
+    display: block;
+    margin-bottom: 6px;
+}
+.retail-form-main input:focus {
+    outline: none;
+    border-color: #000;
+}
+.retail-form-main input[type="submit"] {
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+    font-size: 18px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.retail-form-main input[type="submit"]:hover {
+    background-color: #333;
+}
+.retail-form-modal .retail-form-type.show {
+    display: block;
+}
+.retail-form-modal .retail-form-type.hide {
+    display: none;
+}
+.retail-form-modal .rental-form-action {
+    margin-top: 25px;
+}
+.retail-form-modal .rental-form-action button {
+    border: 0;
+    display: block;
+    margin: 0 auto;
+    font-size: 14px;
+    background-color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.retail-form-modal .rental-form-action button:hover {
+    text-decoration: underline;
+}
+
+
+@media only screen and (max-width :1920px) and (min-width: 1601px) {
+    
+}
+
+@media only screen and (max-width :1600px) and (min-width: 1441px) {
+    
+}
+
+@media only screen and (max-width :1440px) and (min-width: 1367px) {
+    
+}
+
+@media only screen and (max-width :1440px){
+
+}
+
+@media only screen and (max-width :1366px) and (min-width: 1281px) {
+    
+}
+
+@media only screen and (max-width :1280px) and (min-width: 1101px) {
+    
+}
+
+@media only screen and (max-width :1100px){
+    .retail-form-wrapper {
+        width: 55%;
+    }
+}
+
+@media only screen and (max-width:999px){
+    
+}
+
+@media only screen and (max-width:767px){
+    .retail-form-modal {
+        overflow-x: auto;
+    }
+    .retail-form-wrapper {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width:479px){
+    .retail-form-wrapper {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width:320px){
+    
+}

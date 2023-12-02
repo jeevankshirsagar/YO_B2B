@@ -1,0 +1,15 @@
+
+.shop-listing-brands .item {
+    border: 0;
+    overflow: hidden;
+}
+.shop-listing-brands .item:hover {
+    box-shadow: none;
+    border-color: transparent;
+}
+.shop-listing-brands .item img {
+    transition: 0.2s;
+}
+.shop-listing-brands .item:hover img {
+    transform: scale(1.1);
+}

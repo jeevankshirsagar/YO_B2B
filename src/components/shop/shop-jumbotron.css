@@ -1,0 +1,35 @@
+
+.shop-listing-jumbotron .sl-jumbotron-inner {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 30px;
+    text-align: center;
+}
+.shop-listing-jumbotron .slj-content {
+    width: 70%;
+}
+.shop-listing-jumbotron .slj-title {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width:768px){
+    .shop-listing-jumbotron .slj-content {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width:576px){
+    .shop-listing-jumbotron .sl-jumbotron-inner {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .shop-listing-jumbotron .slj-title {
+        font-size: 26px;
+        margin-bottom: 16px;
+    }
+    .shop-listing-jumbotron .slj-content {
+        width: 100%;
+    }
+}

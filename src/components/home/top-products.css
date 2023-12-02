@@ -1,0 +1,94 @@
+
+.top-products-listing .item {
+    border: 2px solid #eee;
+    border-radius: 3px;
+}
+.top-products-listing .item:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    border-color: #ed7b18;
+}
+.top-products-listing .pl-product-thumb {
+    padding: 30px 20px;
+}
+.top-products-listing .pl-cnt-wrapper {
+    padding: 0 30px 30px 30px;
+}
+.top-products-listing .pl-title {
+    font-size: 17px;
+}
+.top-products-listing .pl-variation {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top-products-listing .pl-variation .pl-var-btn {
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    margin: 0 8px;
+    cursor: pointer;
+    box-shadow: 0px 0px 2px 0px #333;
+    border: 1px solid #c4c4c4;
+}
+.top-products-listing .pl-variation .pl-var-btn:hover {
+    box-shadow: 0px 0px 3px 0px #333;
+}
+.top-products-listing .pl-meta {
+    margin-bottom: 15px;
+}
+.top-products-listing .pl-meta span {
+    font-weight: bold;
+    color: #ed7b18;
+    font-size: 16px;
+}
+.top-products-listing .pl-meta .pl-qty,
+.top-products-listing .pl-meta .pl-pp {
+    font-weight: 400;
+    color: #334141;
+}
+.top-products-listing .pl-meta .pl-pp {
+    position: relative;
+    top: -2px;
+}
+.top-products-listing .pl-cta-btn a,
+.top-products-listing .pl-cta-btn button {
+    border: 0;
+    display: block;
+    text-align: center;
+    max-width: 130px;
+    margin: 0 auto;
+    background-color: #ed7b18;
+    color: #fff;
+    padding: 10px 12px;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.top-products-listing .pl-cta-btn a:hover,
+.top-products-listing .pl-cta-btn button:hover {
+    background-color: #f74c14;
+}
+.top-products-listing .owl-nav {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.top-products-listing .owl-nav button {
+    margin: 0 5px;
+    background-color: #ed7b18 !important;
+    width: 40px;
+    height: 40px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top-products-listing .owl-nav button:hover {
+    background-color: #f74c14 !important;
+}
+.top-products-listing .owl-nav button i {
+    color: #fff;
+    font-size: 24px;
+    line-height: 0;
+}

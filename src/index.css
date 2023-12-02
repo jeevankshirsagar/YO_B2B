@@ -1,0 +1,232 @@
+/* GLOBAL CSS */
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+p {
+    margin: 0;
+}
+img {
+    max-width: 100%;
+}
+a {
+    text-decoration: none;
+    color: #ed7b18;
+}
+a:hover {
+    color: #f3272a;
+    text-decoration: none;
+}
+p {
+    color: #334141
+}
+a:focus,
+button:focus {
+    outline: none;
+}
+
+/* THEME CLASS */
+
+.theme-bg-v1 {
+    background-color: #f3272a;
+}
+.theme-bg-v2 {
+    background-color: #ed7b18;
+}
+.theme-bg-v3 {
+    background-color: #f74c14;
+}
+.theme-btn {
+    background-color: #f3272a;
+    color: #ed7b18;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 10px 15px;
+    border: 0;
+}
+.theme-btn:hover {
+    background-color: #ed7b18;
+    color: #f3272a;
+}
+.theme-btn-v2 {
+    border: 0;
+    background-color: #ed7b18;
+    color: #fff;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.theme-btn-v2:hover {
+    background-color: #f74c14;
+}
+.theme-btn-auto {
+    width: fit-content;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/* ADDITIONAL CSS */
+
+.section-title {
+    font-size: 50px;
+    line-height: 70px;
+}
+.section-title-v2 {
+    border: 3px solid #ed7b18;
+    width: fit-content;
+    margin: 0 auto;
+    border-left: 0;
+    border-right: 0;
+    padding: 5px 20px;
+}
+
+.common-banner {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 180px 0;
+}
+.common-banner::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #000;
+    opacity: 0.2;
+    z-index: 0;
+}
+.common-banner .plb-title {
+    margin-bottom: 50px;
+    font-size: 100px;
+    line-height: 120px;
+}
+.shop-listing-banner {
+    padding: 200px 0 400px 0;
+}
+.shop-cat-blocks {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.shop-cat-blocks .sc-subtitle {
+    margin-bottom: 18px;
+    color: #fff;
+}
+.shop-cat-blocks .sc-cta {
+    transition: 0.2s;
+}
+.shop-cat-blocks .sc-cta:hover {
+    transform: scale(1.05);
+}
+.shop-cat-blocks .shop-cat-block .sc-cta a {
+    font-size: 18px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 3px;
+    color: #000;
+    font-weight: 600;
+}
+
+
+
+
+/* RESPONSIVE CSS */
+
+/*----------------------------- Large Screens -------------------------------*/
+
+
+@media only screen and (max-width :1920px) and (min-width: 1601px) {
+    
+}
+
+@media only screen and (max-width :1600px) and (min-width: 1441px) {
+    
+}
+
+@media only screen and (max-width :1440px) and (min-width: 1367px) {
+    
+}
+
+@media only screen and (max-width :1366px) and (min-width: 1281px) {
+   
+}
+
+/*----------------------------- Small Laptop -------------------------------*/
+@media only screen and (max-width :1280px) and (min-width: 1101px) {
+    
+}
+
+/*----------------------------- Media 1024 -------------------------------*/
+@media only screen and (max-width :1100px){
+    .common-banner .plb-title {
+        font-size: 80px;
+        line-height: 100px;
+    }   
+}
+
+/*----------------------------- Media 768 -------------------------------*/
+@media only screen and (max-width:999px){
+    .section-title {
+        font-size: 40px;
+        line-height: 60px;
+    }
+    .shop-listing-banner {
+        padding: 80px 0 320px 0;
+    }
+    .common-banner .plb-title {
+        font-size: 60px;
+        line-height: 80px;
+    }
+}
+
+/*----------------------------- Media Tab -------------------------------*/
+@media only screen and (max-width:767px){
+    .section-title {
+        font-size: 36px;
+        line-height: 56px;
+    }
+    .shop-cat-blocks .row > div {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .shop-cat-blocks .shop-cat-block .sc-cta a {
+        padding: 20px;
+        font-size: 16px;
+    }
+}
+
+/*----------------------------- Media Mobile Screen -------------------------------*/
+@media only screen and (max-width:479px){
+    .section-title {
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .shop-listing-banner {
+        padding-bottom: 600px;
+    }
+    .shop-cat-blocks .row > div {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+/*----------------------------- Media Small Screen -------------------------------*/
+@media only screen and (max-width:320px){
+    
+}
