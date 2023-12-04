@@ -68,7 +68,7 @@ const TopProducts = () => {
                 />
 
                 <TopListing
-                    productThumbnail="BUDS.jpg"
+                    productThumbnail="budss.png"
                     productTitle="Ear Buds"
                     productCurrency="INR "
                     productPrice="3999"
