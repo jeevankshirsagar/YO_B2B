@@ -7,6 +7,8 @@ import UserTypes from "../components/home/UserTypes";
 import HomePopup from "../util/HomePopup";
 import RetailLoginForm from "../components/forms/RetailLoginForm";
 
+// import '../components/ho';
+
 const Home = () => {
 
     const [loginModalVisible, setLoginModalVisible] = useState(false);
@@ -28,8 +30,9 @@ const Home = () => {
             <TopProducts />
 
             <TrendingProducts />
-
+           
             <HomePopup />
+           
         </>
     )
 }

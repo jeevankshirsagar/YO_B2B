@@ -1,0 +1,26 @@
+/* src/App.css */
+/* body {
+    background-color: #f8f9fa;
+  } */
+  
+  .demo{
+    background-color: #aa0000;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
