@@ -86,7 +86,7 @@ const ContactForm = () => {
                                         {/* <i class=></i> */}
                                     </div>
                                     <div className="text pl-3">
-                                        <p ><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
+                                        <p ><span>Address:</span> 197 West 21th Street, Suite 721 New York NY 10016</p>
                                     </div>
                                 </div>
                                 <div className="dbox w-100 d-flex align-items-center">
