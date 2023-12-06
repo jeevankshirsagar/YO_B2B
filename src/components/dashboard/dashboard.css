@@ -1,0 +1,270 @@
+/*
+html, body, #root, .dashboard-main, .dashboard-main > div, .dashboard-main > div >div {
+    height: 100vh;
+}
+*/
+
+.dashboard-main {
+    margin-top: 62px;
+}
+.dashboard-sidebar {
+    width: 250px;
+    flex: 0 0 auto;
+    margin: 50px 25px;
+    transition: 0.3s;
+}
+.dashboard-panel-main {
+    width: calc(100% - 250px);
+    flex: 1;
+    padding: 50px 30px;
+    background-color: #eeeeee54;
+}
+
+.dashboard-sidebar-menu {
+    list-style: none;
+}
+.dashboard-sidebar ul li {
+    margin-bottom: 8px;
+}
+.dashboard-sidebar ul li:last-child {
+    margin-bottom: 0;
+}
+.dashboard-sidebar ul li .dashboard-item {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    border-radius: 5px;
+}
+.dashboard-sidebar ul li .active-dashboard-item,
+.dashboard-sidebar ul li .dashboard-item:hover {
+    background-color: #ed7b18;
+    color: #fff;
+}
+.dashboard-sidebar ul li .dashboard-item i {
+    line-height: 0;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.dashboard-sidebar.dashboard-sidebar-toggle {
+    width: 45px;
+    overflow: hidden;
+}
+.dashboard-sidebar.dashboard-sidebar-toggle ul li .dashboard-item span {
+    margin-left: 2px;
+}
+.dashboard-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+}
+.dashboard-card .card-title {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+.dashboard-card .dash-card-canvas {
+    margin-top: 20px;
+}
+.dashboard-status .card-title {
+    margin-bottom: 30px;
+}
+.dashboard-status .dashboard-status-bar {
+    height: 3px;
+    background-color: #000;
+    margin: 0 auto;
+}
+.dashboard-status .dash-status-item .dash-status-point {
+    display: block;
+    width: 18px;
+    height: 18px;
+    background-color: #eee;
+    border-radius: 50%;
+    margin-top: -11px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.dashboard-status .dash-status-title {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.dashboard-status .dash-status-item.dash-status-active .dash-status-point {
+    background-color: #22BB33;
+}
+.dashboard-status .dash-status-item.dash-status-submitted .dash-status-point {
+    margin-left: -3px;
+}
+.dashboard-status .dash-status-item.dash-status-completed .dash-status-point {
+    margin-right: -2px;
+}
+.dashboard-panel-main .dash-enquiry-head h6 {
+    margin-bottom: 10px;
+}
+.dashboard-panel-main .dashboard-enquiry-status .dash-enquiry-meta {
+    display: flex;
+    margin-bottom: 8px;
+}
+.dashboard-panel-main .dashboard-enquiry-status {
+    max-height: 160px;
+    overflow: auto;
+}
+.dashboard-enquiry-status .dash-enquiry-list p {
+    font-size: 14px;
+    line-height: 20px;
+    width: fit-content;
+    padding: 3px 5px;
+    border-radius: 3px;
+}
+.dashboard-enquiry-status .dash-enquiry-list .meta-num {
+    padding: 0;
+    line-height: 26px;
+}
+.dashboard-panel-main .dashboard-enquiry-status .dash-enquiry-meta > div {
+    padding: 0;
+}
+.dashboard-panel-main .dashboard-enquiry-status .dash-enquiry-meta > div:first-child {
+    padding-right: 10px;
+}
+.dashboard-enquiry-status .dash-enquiry-list  .meta-msg {
+    min-width: 100px;
+    text-align: center;
+}
+.dashboard-enquiry-status .dash-enquiry-list .meta-success {
+    background-color: #2b3;
+    color: #fff;
+}
+.dashboard-enquiry-status .dash-enquiry-list .meta-ongoing {
+    background-color: yellowgreen;
+    color: #fff;
+}
+.dashboard-enquiry-status .dash-enquiry-list .meta-failed {
+    background-color: red;
+    color: #fff;
+}
+.dashboard-payment .dashboard-card {
+    padding: 40px 20px;
+}
+.dashboard-payment .dashboard-card h4 {
+    margin-bottom: 15px;
+    font-size: 26px;
+}
+.dashboard-payment .dashboard-card h5 {
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0;
+}
+.dash-promo-head h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.dash-promo-banner > .container {
+    max-width: 100%;
+    padding: 0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.dashboard-profile-md h6 {
+    margin-bottom: 2px;
+}
+.dashboard-profile-md p {
+    margin-bottom: 8px;
+}
+
+
+
+
+
+@media only screen and (max-width :1920px) and (min-width: 1601px) {
+    
+}
+
+@media only screen and (max-width :1600px) and (min-width: 1441px) {
+    
+}
+
+@media only screen and (max-width :1440px) and (min-width: 1367px) {
+    
+}
+
+@media only screen and (max-width :1366px) and (min-width: 1281px) {
+   
+}
+
+@media only screen and (max-width :1280px) and (min-width: 1101px) {
+    
+}
+
+@media only screen and (max-width :1100px){
+    .dashboard-sidebar {
+        position: fixed;
+        top: 62px;
+        bottom: 0;
+        right: 0;
+        z-index: 1;
+        background-color: #fff;
+        margin: 0;
+        transform: translateX(300px);
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    }
+    .dashboard-sidebar.dashboard-sidebar-toggle {
+        width: 250px;
+        transform: translateX(0);
+    }
+    .dashboard-sidebar ul li .dashboard-item {
+        border-radius: 0;
+    }
+}
+
+@media only screen and (max-width:999px){
+    .dashboard-sidebar {
+        top: 70px;
+    }
+}
+
+@media only screen and (max-width:767px){
+    .dashboard-status .dashboard-status-wrap {
+        max-width: 600px;
+        overflow-x: scroll;
+        padding: 12px 6px;
+    }
+}
+
+@media only screen and (max-width:576px){
+    .dashboard-card .dashboard-card-count {
+        margin-bottom: 10px;
+    }
+    .dashboard-card .dashboard-card-count:last-child {
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (max-width:575px){
+    .dashboard-status .dashboard-status-bar {
+        display: none;
+    }
+    .dashboard-status .dash-status-item {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .dashboard-status .dash-status-item:last-child {
+        margin-bottom: 0;
+    }
+    .dashboard-status .dash-status-title {
+        margin-top: 0;
+        margin-left: 10px;
+    }
+    .dashboard-status .dash-status-item .dash-status-point {
+        margin: 0 !important;
+    }
+}
+
+@media only screen and (max-width:479px){
+    
+}
+
+@media only screen and (max-width:320px){
+    
+}

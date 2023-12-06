@@ -1,0 +1,76 @@
+
+.dashboard-navbar {
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 10;
+}
+.dashboard-navbar .dash-sidebar-toggler {
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+.dashboard-navbar .dash-sidebar-toggler i {
+    color: #fff;
+    font-size: 25px;
+    line-height: 0;
+}
+
+
+
+@media only screen and (max-width :1920px) and (min-width: 1601px) {
+    
+}
+
+@media only screen and (max-width :1600px) and (min-width: 1441px) {
+    
+}
+
+@media only screen and (max-width :1440px) and (min-width: 1367px) {
+    
+}
+
+@media only screen and (max-width :1366px) and (min-width: 1281px) {
+   
+}
+
+/*----------------------------- Small Laptop -------------------------------*/
+@media only screen and (max-width :1280px) and (min-width: 1101px) {
+    
+}
+
+/*----------------------------- Media 1024 -------------------------------*/
+@media only screen and (max-width :1100px){
+    
+}
+
+/*----------------------------- Media 768 -------------------------------*/
+@media only screen and (max-width:999px){
+    .dashboard-navbar {
+        padding: 15px 0;
+        justify-content: space-between;
+    }
+    body .dashboard-navbar .navbar-nav li .nav-link {
+        padding: 15px 10px !important;
+    }
+}
+
+/*----------------------------- Media Tab -------------------------------*/
+@media only screen and (max-width:767px){
+    
+}
+
+/*----------------------------- Media Mobile Screen -------------------------------*/
+@media only screen and (max-width:479px){
+    
+}
+
+/*----------------------------- Media Small Screen -------------------------------*/
+@media only screen and (max-width:320px){
+    
+}
