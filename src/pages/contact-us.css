@@ -1,0 +1,95 @@
+.contact-form-main .contact-form-col {
+    padding: 30px;
+    height: 100%;
+}
+.contact-form-main .contact-form-card {
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 0px 10px -1px;
+}
+.contact-form-main .contact-form-data {
+    background-color: #ed7b18;
+}
+.contact-form-main .contact-form-data h1 {
+    font-size: 1.75rem;
+}
+.contact-form-main .contact-data-item {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.contact-form-main .contact-data-item:first-child {
+    align-items: flex-start;
+}
+.contact-form-main .contact-data-item:last-child {
+    margin-bottom: 0;
+}
+.contact-data-item i {
+    font-size: 18px;
+    line-height: 18px;
+    background-color: #fff;
+    color: #ed7b18;
+    width: 34px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.contact-data-item p,
+.contact-data-item p a {
+    color: #fff;
+}
+.contact-data-item i {
+    font-size: 18px;
+    line-height: 18px;
+}
+.contact-data-item p,
+.contact-data-item p a {
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.contact-form-main .contact-form-wrap {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2,1fr);
+}
+.contact-form-main .cf-field.cf-field-cover {
+    grid-column: 1/-1;
+}
+.contact-form-main .cf-field input,
+.contact-form-main .cf-field textarea {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000;
+    border: 1px solid #eaeaea;
+    border-radius: 3px;
+    padding: 10px;
+    height: 40px;
+}
+.contact-form-main .cf-field.cf-field-cover textarea {
+    resize: none;
+    height: 200px;
+}
+.contact-form-main .cf-field input:focus,
+.contact-form-main .cf-field textarea:focus {
+    outline: none;
+    border-color: #000;
+}
+.contact-form-main .cf-field input[type="submit"] {
+    height: auto;
+    background-color: #ed7b18;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    padding: 10px 15px;
+}
+.contact-form-main .cf-field input[type="submit"]:hover {
+    background-color: #f3272a;  
+}
+
+@media only screen and (max-width :575px){
+    .contact-form-main .contact-form-wrap {
+        grid-template-columns: repeat(1,1fr);
+    }
+}

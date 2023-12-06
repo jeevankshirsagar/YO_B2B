@@ -4,10 +4,9 @@ import SliderBanner from "../components/home/SliderBanner";
 import TopProducts from "../components/home/TopProducts";
 import TrendingProducts from "../components/home/TrendingProducts";
 import UserTypes from "../components/home/UserTypes";
-import HomePopup from "../util/HomePopup";
 import RetailLoginForm from "../components/forms/RetailLoginForm";
 
-// import '../components/ho';
+import HomePopup from "../util/HomePopup";
 
 const Home = () => {
 
@@ -30,9 +29,8 @@ const Home = () => {
             <TopProducts />
 
             <TrendingProducts />
-           
+
             <HomePopup />
-           
         </>
     )
 }

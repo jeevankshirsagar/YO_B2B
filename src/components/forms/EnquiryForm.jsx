@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { useModal } from '../../contexts/ModalContext';
-
 import "./enquiry-form.css";
+
+import { useModal } from '../../contexts/ModalContext';
 
 const EnquiryForm = () => {
   
@@ -70,7 +70,7 @@ const EnquiryForm = () => {
 
   return (
     <>
-      <div className={`product-form-modal ${enquiryModalVisible ? 'modal-up' : null} `}>
+      <div className={`product-form-modal ${enquiryModalVisible ? 'modal-up' : ''} `}>
         <div className="product-form-wrapper">
           <div className="product-form-data">
             <div className="product-form-image">
