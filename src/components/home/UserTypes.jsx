@@ -31,21 +31,21 @@ const UserTypes = ({ setLoginModalVisible }) => {
                             <div className="user-type-card">
                                 <img src="All_Images/corporate3.jpeg" />
                                 <span className="ut-title">Corporate</span>
-                                <Link to="" className="cover-card"></Link>
+                                <Link to="shop" className="cover-card"></Link>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6">
                             <div className="user-type-card">
                                 <img src="https://placehold.co/1000x1000.svg" />
                                 <span className="ut-title">Individual</span>
-                                <Link to="" className="cover-card"></Link>
+                                <Link to="shop" className="cover-card"></Link>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6">
                             <div className="user-type-card">
                                 <img src="https://placehold.co/1000x1000.svg" />
                                 <span className="ut-title">Other</span>
-                                <Link to="" className="cover-card"></Link>
+                                <Link to="shop" className="cover-card"></Link>
                             </div>
                         </div>
                     </div>

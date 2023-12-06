@@ -14,6 +14,7 @@ import Footer from "./components/footer/Footer";
 import ShopMain from "./pages/ShopMain";
 import MobileStickyHeader from "./components/header/MobileStickyHeader";
 import MobileSearchModal from "./components/header/MobileSearchModal";
+import Contact from "./components/forms/contact";
 
 const App = () => {
 
@@ -56,6 +57,8 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/shop" element={<ShopMain />} />
+
+        <Route path="/contact" element={<Contact/>}/>
       </Routes>
 
       <Footer />

@@ -63,7 +63,7 @@ const Header = () => {
                             {/* NON LOGIN */}
 
                             <div className="account-meta">
-                                <a href="#" className="d-flex">
+                                <a href="" className="d-flex">
                                     <i className="bi bi-person"></i>
                                     <span>Log In</span>
                                 </a>
