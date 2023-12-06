@@ -14,41 +14,41 @@ const ShopBestSelling = () => {
             <div className="row">
 
                 <ShopListingTwo
-                    productThumbnail="iphon-15.jpg"
+                    productThumbnail="All_Images/iphon-15.jpg"
                     productTitle="iPhone 15"
                     productCurrency="INR "
                     productPrice="74999"
                 />
                 <ShopListingTwo
-                    productThumbnail="realme2.webp"
+                    productThumbnail="All_Images/realme2.webp"
                     productTitle="Realme GT"
                     productCurrency="INR "
                     productPrice="24999"
                 />
 
                 <ShopListingTwo
-                    productThumbnail="video_game.jpg"
+                    productThumbnail="All_Images/video_game.jpg"
                     productTitle="Gaming Pad"
                     productCurrency="INR "
                     productPrice="1999"
                 />
 
                 <ShopListingTwo
-                    productThumbnail="tv3.jpeg"
+                    productThumbnail="All_Images/tv3.jpeg"
                     productTitle="Smart TV"
                     productCurrency="INR "
                     productPrice="34999"
                 />
 
                 <ShopListingTwo
-                    productThumbnail="mouse.jpg"
+                    productThumbnail="All_Images/mouse.jpg"
                     productTitle="Mouse"
                     productCurrency="INR "
                     productPrice="1299"
                 />
 
                 <ShopListingTwo
-                    productThumbnail="projector.jpg"
+                    productThumbnail="All_Images/projector.jpg"
                     productTitle="Bluetooth Projector"
                     productCurrency="INR "
                     productPrice="9499"

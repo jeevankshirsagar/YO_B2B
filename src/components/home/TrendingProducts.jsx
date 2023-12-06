@@ -49,34 +49,34 @@ const TrendingProducts = () => {
             <div id="trending-products" className="owl-carousel owl-theme text-center">
 
                 <TrendingProductsListing
-                    productThumbnail="blutoothspeaker.jpg"
+                    productThumbnail="All_Images/blutoothspeaker.jpg"
                     productTitle="Smart Speaker"
                     productCurrency="INR "
                     productPrice="1299"
                 />
                 <TrendingProductsListing
-                    productThumbnail="tab.png"
+                    productThumbnail="All_Images/tab.png"
                     productTitle="Samsung Tab"
                     productCurrency="INR "
                     productPrice="24999"
                 />
 
                 <TrendingProductsListing
-                    productThumbnail="power_bank.jpg"
+                    productThumbnail="All_Images/power_bank.jpg"
                     productTitle="Smart Power Bank"
                     productCurrency="INR "
                     productPrice="1999"
                 />
 
                 <TrendingProductsListing
-                    productThumbnail="printer.webp"
+                    productThumbnail=""
                     productTitle="Smart Printer"
                     productCurrency="INR "
                     productPrice="19499"
                 />
 
                 <TrendingProductsListing
-                    productThumbnail="tv3.jpeg"
+                    productThumbnail="All_Images/tv3.jpeg"
                     productTitle="Smart TV"
                     productCurrency="INR "
                     productPrice="42499"

@@ -3,7 +3,7 @@ import ShopCategoryMain from "./ShopCategoryMain";
 
 const ShopBanner = () => {
 
-    const shopBannerUrl = "p2.png";
+    const shopBannerUrl = "All_Images/homebanner.png";
 
     return (
         <>

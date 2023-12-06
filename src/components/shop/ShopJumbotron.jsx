@@ -2,7 +2,7 @@ import "./shop-jumbotron.css"
 
 const ShopJumbotron = () => {
 
-    const shopJumbotronUrl = "offer3.jpg";
+    const shopJumbotronUrl = "All_Images/offer3.jpg";
 
     return (
         <>

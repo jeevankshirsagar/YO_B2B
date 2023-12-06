@@ -15,55 +15,55 @@ const ShopNewItems = () => {
             <div className="row text-center">
 
                 <ShopListingThree
-                    productThumbnail="Binocular.jpg"
+                    productThumbnail="All_Images/Binocular.jpg"
                     productTitle="Binocular "
                     productCurrency="INR "
                     productPrice="1999"
                 />
                 <ShopListingThree
-                    productThumbnail="headset.jpg"
+                    productThumbnail="All_Images/headset.jpg"
                     productTitle="Headset"
                     productCurrency="INR "
                     productPrice="799"
                 />
 
                 <ShopListingThree
-                    productThumbnail="wifi_camera.jpg"
+                    productThumbnail="All_Images/wifi_camera.jpg"
                     productTitle="WIFI Camera"
                     productCurrency="INR "
                     productPrice="1299"
                 />
 
                 <ShopListingThree
-                    productThumbnail="TABLET.jpg"
+                    productThumbnail="All_Images/TABLET.jpg"
                     productTitle="Writing Tablet "
                     productCurrency="INR"
                     productPrice="299"
                 />
 
                 <ShopListingThree
-                    productThumbnail="projector.jpg"
+                    productThumbnail="All_Images/projector.jpg"
                     productTitle="Smart Projector"
                     productCurrency="INR "
                     productPrice="5999"
                 />
 
                 <ShopListingThree
-                    productThumbnail="printer.webp"
+                    productThumbnail="All_Images/printer.webp"
                     productTitle="Printer"
                     productCurrency="INR "
                     productPrice="3999"
                 />
 
                 <ShopListingThree
-                    productThumbnail="smartwatchwomen.jpg"
+                    productThumbnail="All_Images/smartwatchwomen.jpg"
                     productTitle="Smart Watch"
                     productCurrency="INR "
                     productPrice="1399"
                 />
 
                 <ShopListingThree
-                    productThumbnail="camcoreder.jpg"
+                    productThumbnail="All_Images/camcoreder.jpg"
                     productTitle=" Camcorder"
                     productCurrency="INR "
                     productPrice="2199"

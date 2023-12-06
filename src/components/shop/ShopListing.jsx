@@ -14,55 +14,55 @@ const ShopListing = () => {
             <div className="row text-center">
 
                 <ShopListingOne
-                    productThumbnail="charger.jpg"
+                    productThumbnail="All_Images/charger.jpg"
                     productTitle="iPhone Charger"
                     productCurrency="INR "
                     productPrice="1299"
                 />
                 <ShopListingOne
-                    productThumbnail="smart_camera.webp"
+                    productThumbnail="All_Images/smart_camera.webp"
                     productTitle="Bullet Camera"
                     productCurrency="INR "
                     productPrice="8999"
                 />
 
                 <ShopListingOne
-                    productThumbnail="video_game.jpg"
+                    productThumbnail="All_Images/video_game.jpg"
                     productTitle="Game Pad"
                     productCurrency="INR "
                     productPrice="2499"
                 />
 
                 <ShopListingOne
-                    productThumbnail="telescop.jpg"
+                    productThumbnail="All_Images/telescop.jpg"
                     productTitle="Telescop"
                     productCurrency="INR "
                     productPrice="13999"
                 />
 
                 <ShopListingOne
-                    productThumbnail="selfi_stick.jpg"
+                    productThumbnail="All_Images/selfi_stick.jpg"
                     productTitle="Selfie Stick"
                     productCurrency="INR "
                     productPrice="499"
                 />
 
                 <ShopListingOne
-                    productThumbnail="charging_station.jpg"
+                    productThumbnail="All_Images/charging_station.jpg"
                     productTitle=" Charging Station"
                     productCurrency="INR "
                     productPrice="549"
                 />
 
                 <ShopListingOne
-                    productThumbnail="smartwatch2.png"
+                    productThumbnail="All_Images/smartwatchwomen.jpg"
                     productTitle="Smart Watch"
                     productCurrency="INR "
                     productPrice="2499"
                 />
 
                 <ShopListingOne
-                    productThumbnail="blutooth.jpg"
+                    productThumbnail="All_Images/blutooth.jpg"
                     productTitle="Wireless Earphones"
                     productCurrency="INR "
                     productPrice="2299"

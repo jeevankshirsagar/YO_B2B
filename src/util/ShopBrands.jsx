@@ -43,35 +43,35 @@ const ShopBrands = () => {
             <div id="shop-brands" className="owl-carousel owl-theme text-center">
 
                 <div className="item">
-                    <img src="iphonelogo.png" />
+                    <img src="All_Images/iphonelogo.png" />
                 </div>
 
                 <div className="item">
-                    <img src="realmelogo.jpg" />
+                    <img src="All_Images/realmelogo.jpg" />
                 </div>
 
                 <div className="item">
-                    <img src="samsunglogo2.png" />
+                    <img src="All_Images/samsunglogo2.png" />
                 </div>
 
                 <div className="item">
-                    <img src="lglogo.png" />
+                    <img src="All_Images/lglogo.png" />
                 </div>
 
                 <div className="item">
-                    <img src="sonylogo.jpg" />
+                    <img src="All_Images/sonylogo2.png" />
                 </div>
 
                 <div className="item">
-                    <img src="lenovo.png" />
+                    <img src="All_Images/lenovo.png" />
                 </div>
 
                 <div className="item">
-                    <img src="whirpool.webp" />
+                    <img src="All_Images/whirpool.webp" />
                 </div>
 
                 <div className="item">
-                    <img src="milogo.png" />
+                    <img src="All_Images/milogo.png" />
                 </div>
 
             </div>
