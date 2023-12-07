@@ -61,6 +61,7 @@ button:focus {
     cursor: pointer;
     border-radius: 3px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    
 }
 .theme-btn-v2:hover {
     background-color: #f74c14;
@@ -92,7 +93,7 @@ button:focus {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 180px 0;
+    padding: 0px 0;
 }
 .common-banner::before {
     position: absolute;
@@ -108,10 +109,10 @@ button:focus {
 .common-banner .plb-title {
     margin-bottom: 50px;
     font-size: 100px;
-    line-height: 120px;
+    line-height: 80px;
 }
 .shop-listing-banner {
-    padding: 200px 0 400px 0;
+    padding: 340px 0 400px 0;
 }
 .shop-cat-blocks {
     position: absolute;

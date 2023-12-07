@@ -16,7 +16,7 @@ const UserTypes = ({ setLoginModalVisible }) => {
                     <div className="row m-0">
                         <div className="col-lg-3 col-md-6">
                             <div className="user-type-card">
-                                <img src="https://placehold.co/1000x1000.svg" />
+                                <img src="All_Images/retail4.jpg" />
                                 <span className="ut-title">Retail</span>
 
                                 {/* If Logged In */}
@@ -29,7 +29,7 @@ const UserTypes = ({ setLoginModalVisible }) => {
                         </div>
                         <div className="col-lg-3 col-md-6">
                             <div className="user-type-card">
-                                <img src="https://placehold.co/1000x1000.svg" />
+                                <img src="All_Images/corporate3.jpeg" />
                                 <span className="ut-title">Corporate</span>
                                 <Link to="shop" className="cover-card"></Link>
                             </div>

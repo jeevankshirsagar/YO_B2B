@@ -7,7 +7,7 @@ const SliderBanner = () => {
             <div id="homeBannerSlider" className="carousel slide home-banner-slider" data-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img className="d-block w-100" src="https://placehold.co/1920x600.svg" alt="First slide" />
+                        <img className="d-block w-100" src="All_Images/p4.png" alt="First slide" />
                         <a href="#" className="cover-banner"></a>
                     </div>
                     <div className="carousel-item">

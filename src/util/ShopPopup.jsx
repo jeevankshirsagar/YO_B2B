@@ -30,7 +30,7 @@ const ShopPopup = () => {
             <i className="bi bi-x modal-close-icon"></i>
           </button>
           <div className="offer-modal-box position-relative">
-            <img src="https://placehold.co/800x450" className="d-block mx-auto" alt="Offer" />
+            <img src="All_Images/p1.png" className="d-block mx-auto" alt="Offer" />
             <div className="offer-modal-titles">
                 <h4>Pay the XXX due and get some exciting offers!</h4>
                 <h5>This is an Offer Subtitle</h5>
