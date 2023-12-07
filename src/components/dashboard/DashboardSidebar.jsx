@@ -26,7 +26,7 @@ const DashboardSidebar = ({ sidebarVisibility }) => {
                     </li>
                     <li>
                         <NavLink
-                            to="/dashboard/payment"
+                            to="/dashboard/payment/"
                             className={({ isActive }) => isActive ? 'dashboard-item active-dashboard-item' : 'dashboard-item'}
                         >
                             <i className="bi bi-cash"></i>
@@ -35,7 +35,7 @@ const DashboardSidebar = ({ sidebarVisibility }) => {
                     </li>
                     <li>
                         <NavLink
-                            to="/dashboard/profile"
+                            to="/dashboard/profile/"
                             className={({ isActive }) => isActive ? 'dashboard-item active-dashboard-item' : 'dashboard-item'}
                         >
                             <i className="bi bi-person"></i>
