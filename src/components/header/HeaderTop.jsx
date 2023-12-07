@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 import "./header-top.css"
 
 const HeaderTop = () => {
@@ -18,10 +20,12 @@ const HeaderTop = () => {
                         </div>
                         <div className="col-md-4 col-sm-12 d-flex justify-content-md-end justify-content-sm-center header-tracking">
                             <div className="d-flex text-sm-center">
-                                <a href="#">
+                                <Link
+                                    to="/dashboard/enquiry/"
+                                >
                                     <span className="mr-2"><i className="bi bi-truck"></i></span>
                                     Request Tracking
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
