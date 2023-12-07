@@ -1,17 +1,17 @@
 import { useState, useEffect } from "react";
 
-import "./shop-popup-modal.css";
+import "../../util/shop-popup-modal.css";
 
 import { Link } from "react-router-dom";
 
-const ShopPopup = () => {
+const DashboardPromoPopup = () => {
   const [modalVisible, setModalVisible] = useState(false);
 
   useEffect(() => {
-    // Set a timeout to show the popup after 5 seconds
+    // Set a timeout to show the popup after 2 seconds
     const timeoutId = setTimeout(() => {
       setModalVisible(true);
-    }, 5000);
+    }, 2000);
 
     // Clear the timeout if the component is unmounted before the timeout is reached
     return () => clearTimeout(timeoutId);
@@ -50,4 +50,4 @@ const ShopPopup = () => {
   );
 };
 
-export default ShopPopup;
+export default DashboardPromoPopup;
