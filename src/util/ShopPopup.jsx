@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+
 import "./shop-popup-modal.css";
 
 import { Link } from "react-router-dom";

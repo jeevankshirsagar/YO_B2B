@@ -86,7 +86,9 @@ const ContactForm = () => {
                                         {/* <i class=></i> */}
                                     </div>
                                     <div className="text pl-3">
-                                        <p ><span>Address:</span> 197 West 21th Street, Suite 721 New York NY 10016</p>
+                                      
+                                        <p ><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
+                                          
                                     </div>
                                 </div>
                                 <div className="dbox w-100 d-flex align-items-center">
@@ -99,7 +101,7 @@ const ContactForm = () => {
                                 </div>
                                 <div className="dbox w-100 d-flex align-items-center">
                                     <div className="icon d-flex align-items-center justify-content-center">
-                                         <span className="bi bi-envelope-fill"></span>  
+                                         <span className="fa-sharp fa-regular fa-envelope"></span>  
                                     </div>
                                     <div className="text pl-3">
                                         <p><span >Email:</span> <a href="/cdn-cgi/l/email-protection#b5dcdbd3daf5ccdac0c7c6dcc1d09bd6dad8"><span className="__cf_email__" data-cfemail="9ef7f0f8f1dee7f1ebecedf7eafbb0fdf1f3">[email&#160;protected]</span></a></p>

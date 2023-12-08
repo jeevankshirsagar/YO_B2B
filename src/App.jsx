@@ -1,70 +1,31 @@
-import "./index.css"
-
-import { useState } from "react";
-import { Routes, Route } from "react-router-dom"
-
-import MediaQuery from "react-responsive";
-import EnquiryForm from "./components/forms/EnquiryForm"
-import HeaderTop from "./components/header/HeaderTop";
-import Header from "./components/header/Header";
-import HeaderDesktop from "./components/header/DesktopNavbar";
-import MobileHeader from "./components/header/MobileHeader";
+import "./index.css";
+import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import Footer from "./components/footer/Footer";
 import ShopMain from "./pages/ShopMain";
-import MobileStickyHeader from "./components/header/MobileStickyHeader";
-import MobileSearchModal from "./components/header/MobileSearchModal";
-import Contact from "./components/forms/contact";
+import Dashboard from "./pages/Dashboard";
+import DashboardEnquiry from "./components/dashboard/DashboardEnquiry";
+import DashboardLayout from "./components/dashboard/DashboardLayout";
+import DashboardPayment from "./components/dashboard/DashboardPayment";
+import DashboardProfile from "./components/dashboard/DashboardProfile";
+import MainLayout from "./layouts/MainLayout";
 
 const App = () => {
-
-  const [mobileSearchModal, setMobileSearchModal] = useState(false)
-
-  const handleSearchModal = () => {
-    setMobileSearchModal(!mobileSearchModal);
-  };
-
   return (
     <>
-
-      <EnquiryForm />
-
-      <HeaderTop />
-
-      <MediaQuery query="(min-width: 1024px)">
-        <Header />
-      </MediaQuery>  
-      
-      <MediaQuery query="(min-width: 1024px)">
-        <HeaderDesktop />
-      </MediaQuery>
-
-      <MediaQuery query="(max-width: 768px)">
-        <MobileHeader />
-      </MediaQuery>
-
-      <MediaQuery query="(max-width: 768px)">
-        <MobileStickyHeader
-          mobileSearchModal={mobileSearchModal}
-          handleSearchModal={handleSearchModal}
-        />
-        <MobileSearchModal
-          mobileSearchModal={mobileSearchModal}
-          handleSearchModal={handleSearchModal}
-        />
-      </MediaQuery>
-
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/shop" element={<ShopMain />} />
-
-        <Route path="/contact" element={<Contact/>}/>
+        <Route path="/" element={<MainLayout />}>
+          <Route index element={<Home />} />
+          <Route path="shop" element={<ShopMain />} />
+          <Route path="dashboard" element={<DashboardLayout />} >
+            <Route index element={<Dashboard />} />
+            <Route path="enquiry" element={<DashboardEnquiry />} />
+            <Route path="payment" element={<DashboardPayment />} />
+            <Route path="profile" element={<DashboardProfile />} />
+          </Route>
+        </Route>
       </Routes>
-
-      <Footer />
-
     </>
-  )
-}
+  );
+};
 
 export default App;
