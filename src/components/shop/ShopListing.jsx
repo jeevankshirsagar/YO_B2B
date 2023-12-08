@@ -7,11 +7,11 @@ const ShopListing = () => {
 
   return (
     <div className="top-products-listing global-listing my-5">
-      <div className="container">
-        <h3 className="section-title text-center mb-5">Perfect For You</h3>
+      <div className="demo">
+        <h3 className="section-title text-center mb-8">Perfect For You</h3>
             
         <div className="top-product-listing-wrap">
-            <div className="row text-center">
+            <div className="row text-center " >
 
                 <ShopListingOne
                     productThumbnail="All_Images/charger.jpg"

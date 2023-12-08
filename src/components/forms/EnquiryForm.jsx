@@ -74,7 +74,7 @@ const EnquiryForm = () => {
         <div className="product-form-wrapper">
           <div className="product-form-data">
             <div className="product-form-image">
-              <img src="https://placehold.co/500x500.svg" alt="product" />
+              <img src="../../../All_Images/iphon-15.jpg" alt="product" />
             </div>
             <div className="product-form-meta">
               <h4>Product Name Here</h4>

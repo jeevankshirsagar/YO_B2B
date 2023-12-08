@@ -11,11 +11,11 @@ const SliderBanner = () => {
                         <a href="#" className="cover-banner"></a>
                     </div>
                     <div className="carousel-item">
-                        <img className="d-block w-100" src="https://placehold.co/1920x600.svg" alt="Second slide" />
+                        <img className="d-block w-100" src="All_Images/p4.png" alt="Second slide" />
                         <a href="#" className="cover-banner"></a>
                     </div>
                     <div className="carousel-item">
-                        <img className="d-block w-100" src="https://placehold.co/1920x600.svg" alt="Third slide" />
+                        <img className="d-block w-100" src="All_Images/p4.png" alt="Third slide" />
                         <a href="#" className="cover-banner"></a>
                     </div>
                 </div>

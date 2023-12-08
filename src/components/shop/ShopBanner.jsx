@@ -7,9 +7,9 @@ const ShopBanner = () => {
 
     return (
         <>
-            <div className="common-banner shop-listing-banner position-relative" style={{ backgroundImage: `url(${shopBannerUrl})` }}>
+            <div className="common-banner shop-listing-banner position-relative " style={{ backgroundImage: `url(${shopBannerUrl})` }} >
 
-                <div className="container-fluid">
+                <div className="container-flud">
                     <div className="plb-wrapper position-relative">
                         <div className="plb-content text-center">
                             {/* <h1 className="plb-title text-white">Shop Page</h1> */}

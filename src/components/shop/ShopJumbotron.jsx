@@ -7,7 +7,7 @@ const ShopJumbotron = () => {
     return (
         <>
             <div className="shop-listing-jumbotron my-5">
-                <div className="container">
+                <div className="banner">
                     <div className="row">
                         <div className="col-12">
                             <div className="sl-jumbotron-inner" style={{ backgroundImage: `url('${shopJumbotronUrl}')` }}>

@@ -7,7 +7,7 @@ const ShopBestSelling = () => {
 
   return (
     <div className="top-products-listing global-listing global-listing-v2 my-5">
-      <div className="container">
+      <div className="demo">
         <h3 className="section-title text-center mb-5">Best Selling Items</h3>
             
         <div className="top-product-listing-wrap">
@@ -20,7 +20,7 @@ const ShopBestSelling = () => {
                     productPrice="74999"
                 />
                 <ShopListingTwo
-                    productThumbnail="All_Images/realme2.webp"
+                    productThumbnail="All_Images/realme-gt.png"
                     productTitle="Realme GT"
                     productCurrency="INR "
                     productPrice="24999"

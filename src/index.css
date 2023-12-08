@@ -99,12 +99,13 @@ button:focus {
     position: absolute;
     content: '';
     top: 0;
-    bottom: 0;
+    bottom:0;
     left: 0;
     right: 0;
     background-color: #000;
     opacity: 0.2;
     z-index: 0;
+    /* padding: 453px; */
 }
 .common-banner .plb-title {
     margin-bottom: 50px;
@@ -144,6 +145,12 @@ button:focus {
     font-weight: 600;
 }
 
+.banner{
+    width:100%;
+    padding-right: 90px;
+    padding-left: 90px;
+
+}
 
 
 
@@ -173,7 +180,7 @@ button:focus {
     
 }
 
-/*----------------------------- Media 1024 -------------------------------*/
+/*----------------------------- Media 1024 -----------------------------*/
 @media only screen and (max-width :1100px){
     .common-banner .plb-title {
         font-size: 80px;
@@ -230,4 +237,32 @@ button:focus {
 /*----------------------------- Media Small Screen -------------------------------*/
 @media only screen and (max-width:320px){
     
+}
+element.style {
+    background-image: url(All_Images/homebanner.png);
+    padding-top: 450px;
+}
+
+a.navbar-brand.m-0.p-0 {
+    width: 100px;
+}
+@media only screen and (max-width: 767px) {
+    /* Styles for screens up to 767 pixels wide (typical for mobile devices) */
+    .navbar-brand {
+        width: 80px;
+        /* height: 2px; */
+    }
+}
+/* .pb-3, .py-3 {
+    padding: -25px;
+    padding-bottom: 0rem !important;
+} */
+
+.py-3 {
+    padding-bottom: 0rem !important;
+}
+
+/* <style> */
+.py-3 {
+    padding-top: 0rem !important;
 }

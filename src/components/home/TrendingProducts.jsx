@@ -69,7 +69,7 @@ const TrendingProducts = () => {
                 />
 
                 <TrendingProductsListing
-                    productThumbnail=""
+                    productThumbnail="All_Images/printer.webp"
                     productTitle="Smart Printer"
                     productCurrency="INR "
                     productPrice="19499"
@@ -83,7 +83,7 @@ const TrendingProducts = () => {
                 />
 
                 <TrendingProductsListing
-                    productThumbnail="mouse.jpg"
+                    productThumbnail="All_Images/mouse.jpg"
                     productTitle="Smart Mouse"
                     productCurrency="INR "
                     productPrice="5999"
