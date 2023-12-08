@@ -30,7 +30,7 @@ const HomePopup = () => {
             <i className="bi bi-x modal-close-icon"></i>
           </button>
           <div className="offer-modal-box position-relative">
-            <img src="https://placehold.co/1000x600" className="d-block mx-auto" alt="Offer" />
+            <img src="All_Images/P3.png" className="d-block mx-auto" alt="Offer" />
             <div className="offer-modal-cta text-center">
               <span className="d-block mx-auto">Get the offer!</span>
             </div>

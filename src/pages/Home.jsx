@@ -6,7 +6,9 @@ import TrendingProducts from "../components/home/TrendingProducts";
 import UserTypes from "../components/home/UserTypes";
 import RetailLoginForm from "../components/forms/RetailLoginForm";
 
+
 import HomePopup from "../util/HomePopup";
+
 
 const Home = () => {
 
@@ -29,8 +31,9 @@ const Home = () => {
             <TopProducts />
 
             <TrendingProducts />
-
+           
             <HomePopup />
+           
         </>
     )
 }

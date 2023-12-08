@@ -2,12 +2,12 @@ import "./shop-jumbotron.css"
 
 const ShopJumbotron = () => {
 
-    const shopJumbotronUrl = "https://placehold.co/1920x280.svg";
+    const shopJumbotronUrl = "All_Images/offer3.jpg";
 
     return (
         <>
             <div className="shop-listing-jumbotron my-5">
-                <div className="container">
+                <div className="banner">
                     <div className="row">
                         <div className="col-12">
                             <div className="sl-jumbotron-inner" style={{ backgroundImage: `url('${shopJumbotronUrl}')` }}>

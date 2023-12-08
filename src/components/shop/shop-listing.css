@@ -17,12 +17,12 @@
     row-gap: 30px;
 }
 .global-listing .item .pl-var-btn {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 31px;
 }
 
 .global-listing-v2 .gl-col-item {
-    padding: 30px 20px;
+    padding: 50px 50px;
 }
 .global-listing-v2 .pl-title {
     font-size: 16px;
@@ -88,4 +88,13 @@
         flex: 0 0 100%;
         max-width: 100%;
     }   
+}
+/* 
+.container{
+    max-width: 1750px;
+} */
+
+.demo{
+    max-width: 1750px;
+    margin-left: 20px;
 }

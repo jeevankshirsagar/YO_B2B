@@ -7,51 +7,51 @@ const ShopBestSelling = () => {
 
   return (
     <div className="top-products-listing global-listing global-listing-v2 my-5">
-      <div className="container">
+      <div className="demo">
         <h3 className="section-title text-center mb-5">Best Selling Items</h3>
             
         <div className="top-product-listing-wrap">
             <div className="row">
 
                 <ShopListingTwo
-                    productThumbnail="https://placehold.co/500x500.svg"
-                    productTitle="Lorem Ipsum 9"
-                    productCurrency="$"
-                    productPrice="42.00"
+                    productThumbnail="All_Images/iphon-15.jpg"
+                    productTitle="iPhone 15"
+                    productCurrency="INR "
+                    productPrice="74999"
                 />
                 <ShopListingTwo
-                    productThumbnail="https://placehold.co/500x500.svg"
-                    productTitle="Lorem Ipsum 10"
-                    productCurrency="$"
-                    productPrice="52.00"
-                />
-
-                <ShopListingTwo
-                    productThumbnail="https://placehold.co/500x500.svg"
-                    productTitle="Lorem Ipsum 11"
-                    productCurrency="$"
-                    productPrice="65.00"
+                    productThumbnail="All_Images/realme-gt.png"
+                    productTitle="Realme GT"
+                    productCurrency="INR "
+                    productPrice="24999"
                 />
 
                 <ShopListingTwo
-                    productThumbnail="https://placehold.co/500x500.svg"
-                    productTitle="Lorem Ipsum 12"
-                    productCurrency="$"
-                    productPrice="80.00"
+                    productThumbnail="All_Images/video_game.jpg"
+                    productTitle="Gaming Pad"
+                    productCurrency="INR "
+                    productPrice="1999"
                 />
 
                 <ShopListingTwo
-                    productThumbnail="https://placehold.co/500x500.svg"
-                    productTitle="Lorem Ipsum 13"
-                    productCurrency="$"
-                    productPrice="99.00"
+                    productThumbnail="All_Images/tv3.jpeg"
+                    productTitle="Smart TV"
+                    productCurrency="INR "
+                    productPrice="34999"
                 />
 
                 <ShopListingTwo
-                    productThumbnail="https://placehold.co/500x500.svg"
-                    productTitle="Lorem Ipsum 14"
-                    productCurrency="$"
-                    productPrice="74.00"
+                    productThumbnail="All_Images/mouse.jpg"
+                    productTitle="Mouse"
+                    productCurrency="INR "
+                    productPrice="1299"
+                />
+
+                <ShopListingTwo
+                    productThumbnail="All_Images/projector.jpg"
+                    productTitle="Bluetooth Projector"
+                    productCurrency="INR "
+                    productPrice="9499"
                 />
 
             </div>

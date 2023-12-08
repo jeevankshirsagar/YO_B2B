@@ -7,65 +7,65 @@ const ShopListing = () => {
 
   return (
     <div className="top-products-listing global-listing my-5">
-      <div className="container">
-        <h3 className="section-title text-center mb-5">Perfect For You</h3>
+      <div className="demo">
+        <h3 className="section-title text-center mb-8">Perfect For You</h3>
             
         <div className="top-product-listing-wrap">
-            <div className="row text-center">
+            <div className="row text-center " >
 
                 <ShopListingOne
-                    productThumbnail="https://placehold.co/500x500.svg"
-                    productTitle="Lorem Ipsum"
-                    productCurrency="$"
-                    productPrice="42.00"
+                    productThumbnail="All_Images/charger.jpg"
+                    productTitle="iPhone Charger"
+                    productCurrency="INR "
+                    productPrice="1299"
                 />
                 <ShopListingOne
-                    productThumbnail="https://placehold.co/500x500.svg"
-                    productTitle="Lorem Ipsum 2"
-                    productCurrency="$"
-                    productPrice="52.00"
-                />
-
-                <ShopListingOne
-                    productThumbnail="https://placehold.co/500x500.svg"
-                    productTitle="Lorem Ipsum 3"
-                    productCurrency="$"
-                    productPrice="65.00"
+                    productThumbnail="All_Images/smart_camera.webp"
+                    productTitle="Bullet Camera"
+                    productCurrency="INR "
+                    productPrice="8999"
                 />
 
                 <ShopListingOne
-                    productThumbnail="https://placehold.co/500x500.svg"
-                    productTitle="Lorem Ipsum 4"
-                    productCurrency="$"
-                    productPrice="80.00"
+                    productThumbnail="All_Images/video_game.jpg"
+                    productTitle="Game Pad"
+                    productCurrency="INR "
+                    productPrice="2499"
                 />
 
                 <ShopListingOne
-                    productThumbnail="https://placehold.co/500x500.svg"
-                    productTitle="Lorem Ipsum 5"
-                    productCurrency="$"
-                    productPrice="99.00"
+                    productThumbnail="All_Images/telescop.jpg"
+                    productTitle="Telescop"
+                    productCurrency="INR "
+                    productPrice="13999"
                 />
 
                 <ShopListingOne
-                    productThumbnail="https://placehold.co/500x500.svg"
-                    productTitle="Lorem Ipsum 6"
-                    productCurrency="$"
-                    productPrice="74.00"
+                    productThumbnail="All_Images/selfi_stick.jpg"
+                    productTitle="Selfie Stick"
+                    productCurrency="INR "
+                    productPrice="499"
                 />
 
                 <ShopListingOne
-                    productThumbnail="https://placehold.co/500x500.svg"
-                    productTitle="Lorem Ipsum 7"
-                    productCurrency="$"
-                    productPrice="20.00"
+                    productThumbnail="All_Images/charging_station.jpg"
+                    productTitle=" Charging Station"
+                    productCurrency="INR "
+                    productPrice="549"
                 />
 
                 <ShopListingOne
-                    productThumbnail="https://placehold.co/500x500.svg"
-                    productTitle="Lorem Ipsum 8"
-                    productCurrency="$"
-                    productPrice="200.00"
+                    productThumbnail="All_Images/smartwatchwomen.jpg"
+                    productTitle="Smart Watch"
+                    productCurrency="INR "
+                    productPrice="2499"
+                />
+
+                <ShopListingOne
+                    productThumbnail="All_Images/blutooth.jpg"
+                    productTitle="Wireless Earphones"
+                    productCurrency="INR "
+                    productPrice="2299"
                 />
 
             </div>

@@ -10,7 +10,7 @@ const MobileHeader = () => {
                 <div className="pl-4 mobile-logo">
                     <div className="header-main header-mobile m-0">
                         <Link className="navbar-brand m-0 p-0" href="/">
-                            <img src="https://placehold.co/150x80.svg" width="150" height="80" alt="site-logo" />
+                            <img src="All_Images\logo (1).png" width="150" height="80" alt="site-logo" />
                         </Link>
                     </div>
                 </div>

@@ -12,7 +12,7 @@ const FooterColumnOne = () => {
     return (
         <>
             <div className="col-xl-4 col-lg-12">
-                <img src="https://placehold.co/160x60.svg" alt="site-logo" />
+                <img src="All_Images/LOGO 60 HEIGHT.png" alt="site-logo" />
 
                 <div className="footer-form my-4">
                     <p className="mb-2">Get the latest updates on new products</p>
