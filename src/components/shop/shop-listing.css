@@ -8,6 +8,7 @@
 }
 .global-listing .gl-col-item {
     border: 2px solid #eee;
+    border-radius: 14px;
 }
 .global-listing .gl-col-item:hover {
     box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
@@ -93,8 +94,15 @@
 .container{
     max-width: 1750px;
 } */
-
+/* .item{
+    border-radius: 14px;
+} */
 .demo{
-    max-width: 1750px;
-    margin-left: 20px;
+    max-width: 1200px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.top-product-listing-wrap{
+    border-radius: 25px;
 }
