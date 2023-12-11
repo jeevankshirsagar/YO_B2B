@@ -65,7 +65,7 @@
 }
 .top-products-listing .pl-cta-btn a,
 .top-products-listing .pl-cta-btn button {
-    border: 0;
+    /* border: 0;
     display: block;
     text-align: center;
     max-width: 130px;
@@ -75,7 +75,20 @@
     padding: 10px 12px;
     cursor: pointer;
     border-radius: 14px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+    
+        font-size: 20px;
+        border: 0;
+        display: block;
+        text-align: center;
+        max-width: 140px;
+        margin: 0 auto;
+        background-color: #ed7b18;
+        color: #fff;
+        padding: 4px 8px;
+        cursor: pointer;
+        border-radius: 6px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px -4px 9px;
 }
 .top-products-listing .pl-cta-btn a:hover,
 .top-products-listing .pl-cta-btn button:hover {

@@ -113,7 +113,7 @@ button:focus {
     line-height: 80px;
 }
 .shop-listing-banner {
-    padding: 340px 0 400px 0;
+    padding: 300px 0 400px 0;
 }
 .shop-cat-blocks {
     position: absolute;
@@ -134,7 +134,7 @@ button:focus {
     transform: scale(1.05);
 }
 .shop-cat-blocks .shop-cat-block .sc-cta a {
-    font-size: 18px;
+    /* font-size: 18px;
     display: block;
     width: 100%;
     height: 100%;
@@ -142,10 +142,24 @@ button:focus {
     padding: 25px;
     border-radius: 3px;
     color: #000;
-    font-weight: 600;
+    font-weight: 600; */
+
+        margin-top: 20px;
+      text-align: center;
+         font-size:18px;
+        display: block;
+        width: 263%;
+        height: 100%;
+        background-color: #ffffff;
+         padding: 20;
+        border-radius: 70%;
+        color: #000;
+        font-weight: 600;
+        margin-left: 69px;
+    
 }
 .shop-cat-blocks .shop-cat-block .sc-cta a:hover {
-    background-color: #ed7b18;
+    /* background-color: #ed7b18; */
     color: #fff;
 }
 
@@ -155,6 +169,54 @@ button:focus {
     padding-left: 90px;
 
 }
+
+/* .cat_r{
+    display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        margin-bottom: -70px;
+    } */
+
+
+    .shop-cat-blocks {
+        margin-top: 20px;
+      }
+      
+      /* .sc-subtitle {
+        font-size: 24px;
+        color: #f11111;
+      } */
+      
+      .cat_r {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      
+      .col-md-3 {
+       
+    margin-bottom: -71px;
+    width: 277px;
+    padding: 0px;
+      }
+
+      .box{
+        width:100%;
+        height: 178px;
+    background-color:transparent  ;
+    opacity: 50px;
+    /* border: 2px solid rgb(252, 252, 255); */
+    margin-bottom: -100px;
+
+      }
+      
+      /* Add more styles as needed for your ShopCatBlock component */
+      
+
+
 
 
 

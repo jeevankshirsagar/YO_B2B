@@ -28,14 +28,14 @@ const ShopNewItems = () => {
                 />
 
                 <ShopListingThree
-                    productThumbnail="All_Images/wifi_camera.jpg"
+                    productThumbnail="All_Images/wifi_camera-removebg-preview.png"
                     productTitle="WIFI Camera"
                     productCurrency="INR "
                     productPrice="1299"
                 />
 
                 <ShopListingThree
-                    productThumbnail="All_Images/TABLET.jpg"
+                    productThumbnail="All_Images/tab-removebg-preview.png"
                     productTitle="Writing Tablet "
                     productCurrency="INR"
                     productPrice="299"
@@ -49,7 +49,7 @@ const ShopNewItems = () => {
                 />
 
                 <ShopListingThree
-                    productThumbnail="All_Images/printer.webp"
+                    productThumbnail="All_Images/Printers-removebg-preview.png"
                     productTitle="Printer"
                     productCurrency="INR "
                     productPrice="3999"
