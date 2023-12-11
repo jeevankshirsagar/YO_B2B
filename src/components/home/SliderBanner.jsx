@@ -4,11 +4,13 @@ import "./home-styles.css";
 const SliderBanner = () => {
   const [productSearch, setProductSearch] = useState("");
   const [productCategory, setProductCategory] = useState("");
+  const [padding , setPadding] = useState(15);
 
   function handleSubmit(event) {
     event.preventDefault();
     console.log(`Search Input: ${productSearch}`);
     console.log(`Product Category: ${productCategory}`);
+    setPadding(50);
   }
 
   return (
@@ -24,6 +26,8 @@ const SliderBanner = () => {
               id="product-searchbar"
               className="d-flex w-100"
               onSubmit={handleSubmit}
+              // style={{ padding: `${padding}px` }}
+              // onClick={handleClick}
             >
               <div className="header-search-button col-1 pl-3 pr-0">
                 <button type="submit">
