@@ -17,6 +17,22 @@ const HeaderDesktop = () => {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
+        <div className="header-main">
+          <div className="container">
+            <div className="row header-wrapper justify-content-between align-items-center">
+              <div className="col-2 pl-0">
+                <a className="navbar-brand m-0 p-0" href="/">
+                  <img className="logo"
+                    src="All_Images/logo (1).png"
+                    width="150"
+                    height="80"
+                    alt="site-logo"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
         <div
           className="collapse navbar-collapse justify-content-center"
           id="navbarNavDropdown"
@@ -150,7 +166,7 @@ const HeaderDesktop = () => {
                 <a href="" className="d-flex">
                   <i className="bi bi-person"></i>
                   <span>Log In</span>
-                </a>  
+                </a>
               </div>
 
               {/* LOGGED IN */}

@@ -87,7 +87,7 @@ const ContactForm = () => {
                                     </div>
                                     <div className="text pl-3">
                                       
-                                        <p ><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
+                                        <p ><span>Address:</span>09, Basement Ashoka Shopping Centre, Lokmanya Tilak Rd, Mumbai, Maharashtra 400001</p>
                                           
                                     </div>
                                 </div>
@@ -122,16 +122,6 @@ const ContactForm = () => {
             </div>
         </div>
     </div>
-
-
-
-
-
-
-
-
-
-
     );
   };
   
