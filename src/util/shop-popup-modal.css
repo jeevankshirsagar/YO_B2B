@@ -15,12 +15,13 @@
 .offer-modal-v2 .offer-modal-inner {
     border: 12px solid #fff;
     background-color: #fff;
-    max-width: 50%;
-    border-radius: 3px;
+    max-width: 40%;
+    border-radius:14px;
 }
 .offer-modal-v2 .offer-modal-titles {
     text-align: center;
     margin: 25px 0;
+    border-radius:14px
 }
 .offer-modal-v2 .offer-modal-titles h4 {
     font-size: 28px;

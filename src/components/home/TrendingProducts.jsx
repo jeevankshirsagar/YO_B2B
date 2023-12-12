@@ -55,7 +55,7 @@ const TrendingProducts = () => {
                     productPrice="1299"
                 />
                 <TrendingProductsListing
-                    productThumbnail="All_Images/tab.png"
+                    productThumbnail="All_Images/tab-removebg-preview.png"
                     productTitle="Samsung Tab"
                     productCurrency="INR "
                     productPrice="24999"
@@ -69,7 +69,7 @@ const TrendingProducts = () => {
                 />
 
                 <TrendingProductsListing
-                    productThumbnail="All_Images/printer.webp"
+                    productThumbnail="YO_B2B/WhatsApp Image 2023-12-11 at 14.37.33.jpeg"
                     productTitle="Smart Printer"
                     productCurrency="INR "
                     productPrice="19499"

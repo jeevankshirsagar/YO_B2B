@@ -59,11 +59,11 @@ const ShopBrands = () => {
                 </div>
 
                 <div className="item">
-                    <img src="All_Images/sonylogo2.png" />
+                    <img src="All_Images/sonylogo.jpg" />
                 </div>
 
                 <div className="item">
-                    <img src="All_Images/lenovo.png" />
+                    <img src="All_Images/lenovo-removebg-previews.png" />
                 </div>
 
                 <div className="item">

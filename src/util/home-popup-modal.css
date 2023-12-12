@@ -15,8 +15,12 @@
 .offer-modal .offer-modal-inner {
     border: 12px solid #fff;
     background-color: #fff;
-    max-width: 50%;
+    /* max-width: 50%; */
     border-radius: 3px;
+    /* border: 12px solid #fff; */
+    /* background-color: #5c5c5c; */
+    max-width: 39%;
+    border-radius: 12px;
 }
 .offer-modal .offer-modal-cta {
     margin: 20px auto;

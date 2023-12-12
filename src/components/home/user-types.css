@@ -1,6 +1,8 @@
 
 .user-types .user-type-card {
     position: relative;
+ 
+   
 }
 .user-types .cover-card {
     position: absolute;
@@ -14,6 +16,7 @@
     margin: 0;
     cursor: pointer;
     
+    
 }
 .user-types .user-type-card .ut-title {
     display: block;
@@ -23,11 +26,13 @@
     transform: translate(-50%, -50%);
     font-size: 30px;
     font-weight: 600;
+
 }
 
 @media only screen and (max-width:768px){
     .user-types .row {
         gap: 30px 0;
+       
     }
 }
 
@@ -35,8 +40,10 @@
     .user-types .row > div {
         flex: 0 0 50%;
         max-width: 50%;
+       
     }
     .user-types .user-type-card .ut-title {
+       
         font-size: 26px;
     }
 }
@@ -44,5 +51,6 @@
 @media only screen and (max-width:360px){
     .user-types .user-type-card .ut-title {
         font-size: 18px;
+       
     }
 }
