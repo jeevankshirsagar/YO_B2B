@@ -5,8 +5,9 @@ import { Outlet } from "react-router-dom";
 import MediaQuery from "react-responsive";
 
 import EnquiryForm from "../components/forms/EnquiryForm"
+import Enquiry_Corporate from "../components/forms/Enquiry-Corporate"
 import HeaderTop from "../components/header/HeaderTop";
-import Header from "../components/header/Header";
+// import Header from "../components/header/Header";
 import HeaderDesktop from "../components/header/DesktopNavbar";
 import MobileHeader from "../components/header/MobileHeader";
 import MobileStickyHeader from "../components/header/MobileStickyHeader";
@@ -24,11 +25,13 @@ const MainLayout = () => {
     return (
         <>
             <EnquiryForm />
+            
+            <Enquiry_Corporate />
 
             <HeaderTop />
 
             <MediaQuery query="(min-width: 1024px)">
-            <Header />
+            {/* <Header /> */}
             </MediaQuery>  
 
             <MediaQuery query="(min-width: 1024px)">
