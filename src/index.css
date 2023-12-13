@@ -116,24 +116,27 @@ button:focus {
 .shop-listing-banner {
     padding: 300px 0 400px 0;
 }
-.shop-cat-blocks {
+/* .shop-cat-blocks {
     position: absolute;
     bottom: -350px;
-    /* background-color: #e11616; */
+    background-color: #e11616;
     left: 0;
     right: 0;
     margin: 0 auto;
     margin-bottom: 40px;
     border-radius: 5px;
-}
+} */
+
 .shop-cat-blocks .sc-subtitle {
     margin-bottom: -5px;
+
     color: #e30a0a;
     /* background-color: brown;
-     */
+     
 
 
      text-align: center;
+
 }
 .shop-cat-blocks .sc-cta {
     transition: 0.2s;
@@ -141,6 +144,7 @@ button:focus {
 .shop-cat-blocks .sc-cta:hover {
     transform: scale(1.05);
 }
+
 .shop-cat-blocks .shop-cat-block .sc-cta a {
     /* font-size: 18px;
     display: block;
@@ -171,6 +175,7 @@ button:focus {
     color: #050303;
 }
 
+
 .banner{
     width:100%;
     padding-right: 90px;
@@ -194,10 +199,12 @@ button:focus {
         margin-top: 20px;
       }
       
-      /* .sc-subtitle {
+       .sc-subtitle {
         font-size: 24px;
-        color: #f11111;
-      } */
+        color: #f18511;
+        justify-content: center;
+        
+      } 
 /*       
       .cat_r {
         display: flex;

@@ -1,5 +1,5 @@
 
-import "./header.css"
+import "./home-style.css"
 
 const Header = () => {
 
@@ -17,7 +17,7 @@ const Header = () => {
 
                         <div className="col-7">
                             <div className="header-searchbar d-flex">
-                                <form id="product-searchbar" className="d-flex w-100" onSubmit={handleSubmit}>
+                                <form id="product-searchbar" className="d-flex w-100 header-searchbar" onSubmit={handleSubmit}>
                                     <div className="header-search-button col-1 pl-3 pr-0">
                                         <button type="submit"><i className="bi bi-search"></i></button>
                                     </div> 
