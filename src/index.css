@@ -128,8 +128,12 @@ button:focus {
 }
 .shop-cat-blocks .sc-subtitle {
     margin-bottom: -5px;
-    color: #fff;
-    background-color: brown;
+    color: #e30a0a;
+    /* background-color: brown;
+     */
+
+
+     text-align: center;
 }
 .shop-cat-blocks .sc-cta {
     transition: 0.2s;

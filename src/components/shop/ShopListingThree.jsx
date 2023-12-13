@@ -18,10 +18,10 @@ const ShopListingThree = ({ productThumbnail, productTitle, productCurrency, pro
                 <div className="pl-cnt-wrapper">
                     <h4 className="pl-title">{productTitle}</h4>
                     <div className="pl-variation">
+                        {/* <div className="pl-var-btn"></div>
                         <div className="pl-var-btn"></div>
                         <div className="pl-var-btn"></div>
-                        <div className="pl-var-btn"></div>
-                        <div className="pl-var-btn"></div>
+                        <div className="pl-var-btn"></div> */}
                     </div>
                     <div className="pl-meta">
                         <span className="pl-currency">{productCurrency}</span>
