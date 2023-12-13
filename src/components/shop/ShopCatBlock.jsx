@@ -7,7 +7,7 @@ const ShopCatBlock = ({ title, url, image }) => {
             <div className="shop-cat-block">
                 <div className="sc-cta">
                     <Link to={url}>
-                    <img src={image} alt={title} style={{ borderRadius: '5%' }} />
+                    <img src={image} alt={title} />
                         {title}
                     </Link>
 

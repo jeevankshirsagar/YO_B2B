@@ -101,8 +101,12 @@
     border-radius: 14px;
 } */
 .demo{
+<<<<<<< HEAD
+    margin-top: 360px;
+=======
  ram
     margin-top: 155px;
+>>>>>>> 328e569961827bd64914a695096a397e1ba7442f
     max-width: 1200px;
     margin-left: 70px;
     margin-right: 70px;

@@ -5,12 +5,12 @@
             <>
                 <div className="shop-cat-blocks">
 
-                    <div className="box">
+                    {/* <div className="box"> */}
                     <div className="container">
-                        <h3 className="sc-subtitle">Discover All Categories:</h3>
+                        <h3 className="sc-subtitle" >Discover All Categories:</h3>
                         <div className="row">
 
-                            <div className="cat_r">
+                            {/* <div className="cat_r"> */}
                             <div className="col-md-3"> 
                             <ShopCatBlock title="Smartphones" url="/smartphones" image={'../../../All_Images/iphon-15.jpg'} />
                             </div>
@@ -19,7 +19,7 @@
                         </div>
                         
                         <div className="col-md-3"> 
-                            <ShopCatBlock title="Laptops" url="/laptops" image={"../../../All_Images/mcbk.jpg"} />
+                            <ShopCatBlock title="Laptops" url="/laptops" image={"All_Images/mcbk.jpg"} />
                             </div>
                         <div className="col-md-3">
                             <ShopCatBlock title="Accessories" url="/accessories" image={"../../../All_Images/hp-laptop-charger-adapter.jpg"} />
@@ -28,8 +28,8 @@
 
                         </div>
                     </div>
-                    </div>
-                </div>  
+                    {/* </div> */}
+                {/* </div>   */}
             </>
         )
     }
@@ -37,8 +37,7 @@
     export default ShopCategoryMain;
     
 
-
-//     import ShopCatBlock from "./ShopCatBlock";
+// import ShopCatBlock from "./ShopCatBlock";
 
 // const ShopCategoryMain = () => {
 //     return (
