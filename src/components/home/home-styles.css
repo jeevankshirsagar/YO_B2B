@@ -1,6 +1,6 @@
 
 .home-banner-slider .cover-banner {
-    position: absolute;
+    position: relative;
     top: 0;
     bottom: 0;
     width: 100%;
@@ -10,4 +10,51 @@
 .home-banner-slider .carousel-indicators li {
     height: 6px;
     cursor: pointer;
+}
+
+.header-searchbar .d-flex {
+    font-size: 15px;
+    border-radius: 30px;
+    border: 1.5px solid #e0e0e0;
+    z-index: 3;
+    position: absolute;
+    top: 50%;
+    left: 85%;
+    margin-top: 40px;
+    transform: translate(-50%, -50%);
+    background-color: rgba(242, 242, 242, 0.7);
+    backdrop-filter: blur(10px);
+    box-shadow: 5px 6px 10px rgba(157, 155, 155, 0.7);
+}
+
+.header-searchbar button {
+    line-height: 0;
+    cursor: pointer;
+}
+.header-searchbar button .bi-search {
+    font-size: 16px;
+}
+.header-main .header-search-button .bi-search::before {
+    font-weight: 600 !important;
+}
+.header-searchbar button,
+.header-searchbar input,
+.header-searchbar select {
+    height: 50px;
+    outline: none;
+    background-color: transparent;
+    border: 0;
+    width: 100%;
+}
+.header-searchbar textarea {
+    border-left: 1px solid #e0e0e0;
+}
+.header-searchbar .header-search-dropdown {
+    border-left: 1px solid #e3e3e3;
+}
+.header-searchbar select {
+    font-weight: 600;
+}
+.header-searchbar select option {
+    font-size: 14px;
 }

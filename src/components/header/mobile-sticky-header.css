@@ -3,8 +3,7 @@
     bottom: 0;
     z-index: 10;
     background-color: #fff;
-    padding: 12px 0;
-    box-shadow: 0px 0px 6px -2px #3333338c;
+    padding: 20px;
 }
 .mobile-sticky-header .msh-search {
     border-right: 1px solid #DDDDDD;

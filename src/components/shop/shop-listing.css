@@ -4,7 +4,7 @@
 .global-listing .item:hover {
     border: 0;
     box-shadow: none;
-    border-color: transparent;
+    border-color: orangered;
 }
 .global-listing .gl-col-item {
     border: 2px solid #eee;
@@ -12,7 +12,7 @@
 }
 .global-listing .gl-col-item:hover {
     box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
-    border-color: #ed7b18;
+    border-color: #f7f7f7;
 }
 .global-listing .row {
     row-gap: 30px;
@@ -76,18 +76,21 @@
     }
     .global-listing-v2 .pl-cta-btn button {
         margin: 0 auto;
+        
     }
 }
 @media only screen and (max-width:575px){
     .global-listing .item, .global-listing .item {
         flex: 0 0 50%;
         max-width: 50%;
+        border-radius: 3px solid orange ;
     }
 }
 @media only screen and (max-width:479px){
     .global-listing .item {
         flex: 0 0 100%;
         max-width: 100%;
+       
     }   
 }
 /* 
@@ -98,7 +101,12 @@
     border-radius: 14px;
 } */
 .demo{
+<<<<<<< HEAD
     margin-top: 360px;
+=======
+ ram
+    margin-top: 155px;
+>>>>>>> 328e569961827bd64914a695096a397e1ba7442f
     max-width: 1200px;
     margin-left: 70px;
     margin-right: 70px;
@@ -106,4 +114,20 @@
 
 .top-product-listing-wrap{
     border-radius: 25px;
+
+    max-width: 1500px;
+    margin-left:150px;
+   
+
+    /* margin-right: 50px; */
+}
+.gl-col-item.d-flex.flex-wrap {
+    border-radius: 34px;
+}
+.item{
+    border-radius: 34px !important;
+}
+.gl-col-item {
+    border-radius: 34px;
+
 }

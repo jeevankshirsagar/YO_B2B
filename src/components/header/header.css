@@ -3,7 +3,7 @@
     margin: -41px ;
 }
 
-.header-searchbar form {
+/* .header-searchbar form {
     font-size: 15px;
     background: #f7f7f7;
     border-radius: 5px;
@@ -39,9 +39,9 @@
 }
 .header-searchbar select option {
     font-size: 14px;
-}
+} */
 
-.header-main .account-meta i {
+/* .header-main .account-meta i {
     font-size: 25px;
     line-height: 18px;
     margin-top: -4px;
@@ -52,6 +52,7 @@
     text-transform: capitalize;
     font-weight: 600;
     margin-left: 5px;
+<<<<<<< HEAD
 }
 
 .logo{
@@ -60,3 +61,6 @@
     margin-top:-12px;
     z-index: 2;
 }
+=======
+} */
+>>>>>>> 328e569961827bd64914a695096a397e1ba7442f
