@@ -108,6 +108,14 @@ const MobileHeader = () => {
                                         Contact
                                 </NavLink>
                             </li>
+                            <li className="nav-item">
+                                <NavLink
+                                    to="/contact"
+                                    className={({ isActive }) => isActive ? 'active-nav-link nav-link' : 'nav-link'}
+                                    > <i className="bi bi-person"></i>
+                                    <span>Log In</span>
+                                </NavLink>
+                            </li>
                         </ul>
                     </div>
                 </nav>

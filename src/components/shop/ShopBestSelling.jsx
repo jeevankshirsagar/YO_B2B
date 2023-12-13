@@ -20,7 +20,7 @@ const ShopBestSelling = () => {
                     productPrice="74999"
                 />
                 <ShopListingTwo
-                    productThumbnail="All_Images/realme-gt.png"
+                    productThumbnail="YO_B2B/realme-gt-removebg-preview.png"
                     productTitle="Realme GT"
                     productCurrency="INR "
                     productPrice="24999"
@@ -49,7 +49,7 @@ const ShopBestSelling = () => {
 
                 <ShopListingTwo
                     productThumbnail="All_Images/projector.jpg"
-                    productTitle="Bluetooth Projector"
+                    productTitle="Projector"
                     productCurrency="INR "
                     productPrice="9499"
                 />
