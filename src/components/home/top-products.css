@@ -2,12 +2,12 @@
 .top-products-listing .item {
     border: 2px solid #eee;
     border-radius: 14px;
+    
+
 }
 .top-products-listing .item:hover {
     box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
-    border-color: #ed7b18;
-  
-    
+    border-color: #ed7b18;   
 }
 .top-products-listing .pl-product-thumb {
     padding: 30px 20px;

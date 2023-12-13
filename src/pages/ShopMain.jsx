@@ -13,6 +13,7 @@ const ShopMain = () => {
         <>
             <ShopPopup />
             <ShopBanner />
+            
             <ShopListing />
             <ShopJumbotron />
             <ShopBestSelling />

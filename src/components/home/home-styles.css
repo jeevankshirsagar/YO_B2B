@@ -58,3 +58,13 @@
 .header-searchbar select option {
     font-size: 14px;
 }
+
+
+/* ------------------------------------Mobile View---------------------------------- */
+
+@media screen and (max-width:768px) {
+    #product-searchbar{
+        display: none !important;
+    }
+    
+}

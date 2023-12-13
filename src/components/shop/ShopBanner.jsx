@@ -84,8 +84,9 @@ const ShopBanner = () => {
             </div>
           </div>
         </div>
-        <ShopCategoryMain />
+    
       </div>
+      <ShopCategoryMain />
     </>
   );
 };
