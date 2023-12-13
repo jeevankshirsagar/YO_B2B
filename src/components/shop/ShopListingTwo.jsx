@@ -18,10 +18,10 @@ const ShopListingTwo = ({ productThumbnail, productTitle, productCurrency, produ
                 <div className="pl-cnt-wrapper col-xxl-6 col-xl-6 col-md-12 col-sm-12">
                     <h4 className="pl-title">{productTitle}</h4>
                     <div className="pl-variation">
+                        {/* <div className="pl-var-btn"></div>
                         <div className="pl-var-btn"></div>
                         <div className="pl-var-btn"></div>
-                        <div className="pl-var-btn"></div>
-                        <div className="pl-var-btn"></div>
+                        <div className="pl-var-btn"></div> */}
                     </div>
                     <div className="pl-meta">
                         <span className="pl-currency">{productCurrency}</span>
