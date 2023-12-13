@@ -4,13 +4,12 @@ import "./home-styles.css";
 const SliderBanner = () => {
   const [productSearch, setProductSearch] = useState("");
   const [productCategory, setProductCategory] = useState("");
-  const [padding , setPadding] = useState(15);
+  
 
   function handleSubmit(event) {
     event.preventDefault();
     console.log(`Search Input: ${productSearch}`);
     console.log(`Product Category: ${productCategory}`);
-    setPadding(50);
   }
 
   return (

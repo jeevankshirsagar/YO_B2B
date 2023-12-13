@@ -1,7 +1,9 @@
-
+/* 
 .header-main {
+
     margin: -41px ;
 }
+
 
 /* .header-searchbar form {
     font-size: 15px;
@@ -52,7 +54,7 @@
     text-transform: capitalize;
     font-weight: 600;
     margin-left: 5px;
-<<<<<<< HEAD
+
 }
 
 .logo{
@@ -61,6 +63,4 @@
     margin-top:-12px;
     z-index: 2;
 }
-=======
-} */
->>>>>>> 328e569961827bd64914a695096a397e1ba7442f
+
